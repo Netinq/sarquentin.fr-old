@@ -15,7 +15,9 @@ body
   padding: 0;
 
   overflow-x: hidden;
-  scroll-snap-type: y mandatory;
+
+  scroll-snap-type: y proximity;
+  -ms-scroll-snap-type: y proximity;
 }
 
 a, a:active, a:link, a:visited
