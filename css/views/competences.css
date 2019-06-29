@@ -1,0 +1,70 @@
+#competences
+{
+  position: relative;
+
+  width: 100vw;
+  left: 0;
+
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, .95);
+
+  scroll-snap-align: start;
+
+  padding-top: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.competence
+{
+  float: left;
+
+  width: calc(100vw / 3 - (3*10px));
+  margin-left: 10px;
+  margin-right: 10px;
+
+  border-top: 4px solid #333333;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media only screen and (max-width: 700px) 
+{
+  .competence
+  {
+    width: 75vw;
+  }
+}
+
+.competence .name
+{
+
+  background-color: rgba(246, 246, 246, 0.75);
+  margin: 0;
+
+  padding: 20px;
+
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.competence .description
+{
+  background-color: rgba(65, 64, 64, 0.034);
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  padding: 10px;
+
+  text-align: justify;
+  white-space: pre-wrap;
+
+  border-top-left-radius: -10px;
+  border-top-right-radius: -10px;
+}
+
+.competence i
+{
+  color: #4f91bd;
+}

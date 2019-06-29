@@ -1,0 +1,79 @@
+#creations
+{
+  position: relative;
+
+  width: 100vw;
+  left: 0;
+
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, .95);
+
+  scroll-snap-align: start;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.creation
+{
+  float: left;
+
+  width: calc(100vw / 2.8 - (2*10px));
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) 
+{
+  .creation
+  {
+    width: 75vw;
+  }
+}
+
+.creation .name
+{
+
+  background-color: rgba(246, 246, 246, 0.75);
+  margin: 0;
+
+  padding: 20px;
+
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+.creation .description
+{
+  background-color: rgba(65, 64, 64, 0.034);
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  padding: 10px;
+
+  text-align: justify;
+  white-space: pre-wrap;
+
+  border-bottom-right-radius: 30px;
+}
+
+.creation i
+{
+  color: #4fbd61;
+}
+.creation a
+{
+  color: #4f91bd;
+  text-decoration: underline;
+}
+
+.creation .preview
+{
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #333333;
+  border-top-left-radius: 30px;
+}

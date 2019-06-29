@@ -1,0 +1,92 @@
+#plus
+{
+  position: relative;
+
+  width: 100vw;
+  
+  scroll-snap-align: start;
+
+  padding-top: 100px;
+
+  background-color: #292929;
+  box-shadow: 0px 0px 2px 5px #292929;
+
+  color: #ffffff;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contacts
+{
+  width: calc(100vw/2)
+}
+
+.contact
+{
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+
+  background-color: #313131;
+}
+.contact .name
+{
+  font-weight: bold;
+  font-size: 1.5em;
+
+  margin: 0;
+  margin-left: 20px;
+}
+.contact .link
+{
+  font-weight: lighter;
+
+  margin: 0;
+  margin-left: 20px;
+}
+
+.others
+{
+  width: calc(100vw/2);
+  float: left;
+}
+
+.other
+{
+  margin: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+
+  background-color: #313131;
+}
+.other .name
+{
+  font-weight: bold;
+  font-size: 1.5em;
+
+  margin: 0;
+  margin-left: 20px;
+}
+.other .link
+{
+  font-weight: lighter;
+
+  margin: 0;
+  margin-left: 20px;
+}
+
+.end
+{
+  background-color: #1b1b1b;
+  line-height: 25px;
+  margin: 0;
+  margin-top: 25px;
+  width: 100vw;
+  height: 50px;
+  padding: 10px;
+  padding-left: 25px;
+}

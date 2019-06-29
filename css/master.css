@@ -1,0 +1,30 @@
+:root
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+
+  scroll-behavior: smooth;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+
+  overflow-x: hidden;
+  scroll-snap-type: y mandatory;
+}
+
+a, a:active, a:link, a:visited
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+i
+{
+  font-style: normal;
+}
