@@ -21,8 +21,8 @@ $TWITTER = '@NetinqDev';
 	<meta name='target' content='all'>
 	<meta name='theme-color' content='<?php echo $SITE_COLOR?>'>
 
-	<link rel='shortcut icon' type='image/ico' href='iconURL_empty'>
-	<link rel='logo' type='image/svg' href='iconURL_empty'>
+	<link rel='shortcut icon' type='image/ico' href='images/logo.png'>
+	<link rel='logo' type='image/svg' href='images/logo.png'>
 
 	<meta property='og:title' content='<?php echo $SITE_NAME?>' />
 	<meta property='og:description' content='<?php echo $SITE_DESCRIPTION?>' />
