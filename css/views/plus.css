@@ -22,6 +22,13 @@
 {
   width: calc(100vw/2)
 }
+@media only screen and (max-width: 700px) 
+{
+  .contacts
+  {
+    width: 75vw;
+  }
+}
 
 .contact
 {
@@ -52,6 +59,13 @@
 {
   width: calc(100vw/2);
   float: left;
+}
+@media only screen and (max-width: 700px) 
+{
+  .others
+  {
+    width: 75vw;
+  }
 }
 
 .other
