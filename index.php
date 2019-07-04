@@ -1,7 +1,3 @@
-<?php
-$src_views = './resources/views/'
-?>
-
 <!DOCTYPE html>
 <html>
   <?php include './apps/app.php'?>
