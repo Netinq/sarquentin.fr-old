@@ -7,6 +7,8 @@
   width:100vw;
 
   scroll-snap-align: start;
+
+  background-color: rgba(255, 255, 255, 0.25);
 }
 #introduction:before {
   content: "";
