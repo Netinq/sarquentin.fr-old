@@ -129,4 +129,9 @@
 {
   line-height: 50px;
 }
+
+.header .title
+{
+  font-size: 2em;
+}
 }
