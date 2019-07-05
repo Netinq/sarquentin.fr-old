@@ -105,6 +105,15 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .header
+{
+  height: 100px;
+}
+
+.header-reduc
+{
+  height: 60px;
+}
 .element
 {
   display: none;
@@ -127,7 +136,7 @@
 }
 .header-reduc .h-box
 {
-  line-height: 50px;
+  line-height: 25px;
 }
 
 .header .title
@@ -136,6 +145,6 @@
 }
 .header-reduc p .title
 {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 }

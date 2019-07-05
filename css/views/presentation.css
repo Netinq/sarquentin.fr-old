@@ -280,4 +280,12 @@ canvas{ display: block; vertical-align: bottom; }
   
     z-index: -2;
   }
+
+  .card p
+  {
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+  }
 }
