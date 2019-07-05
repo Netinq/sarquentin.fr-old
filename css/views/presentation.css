@@ -234,3 +234,50 @@ canvas{ display: block; vertical-align: bottom; }
   background-size: cover; 
   background-position: 50% 50%; 
 }
+
+@media only screen and (max-width: 700px) {
+  .card::before
+  {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    height: 100%;
+    width: 100%;
+  
+    background-color: rgba(246, 246, 246, 0.75);
+    box-shadow: 2px 2px 2px 5px rgba(246, 246, 246, 0.75);
+  
+    transform:skew(-2.5deg);
+    border-top-right-radius: 40%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 75px;
+  
+    z-index: -1;
+  }
+  .card::after
+  {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0;
+  
+    height: 100%;
+    width: 100%;
+  
+    background-color: rgba(221, 221, 221, 0.75);
+    box-shadow: 2px 2px 2px 5px rgba(221, 221, 221, 0.75);
+  
+    transform:skew(2.5deg);
+    border-top-right-radius: 40%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 75px;
+  
+    z-index: -2;
+  }
+}
