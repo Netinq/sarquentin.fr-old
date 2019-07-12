@@ -88,8 +88,7 @@
   height: 100%;
   width: 100%;
 
-  background-color: rgba(246, 246, 246, 0.75);
-  box-shadow: 2px 2px 2px 5px rgba(246, 246, 246, 0.75);
+  background-color: rgba(246, 246, 246, 0.9);
 
   transform:skew(-20deg);
   border-top-right-radius: 40%;
@@ -110,8 +109,7 @@
   height: 100%;
   width: 100%;
 
-  background-color: rgba(221, 221, 221, 0.75);
-  box-shadow: 2px 2px 2px 5px rgba(221, 221, 221, 0.75);
+  background-color: rgba(221, 221, 221, 0.9);
 
   transform:skew(20deg);
   border-top-right-radius: 40%;
@@ -247,8 +245,7 @@ canvas{ display: block; vertical-align: bottom; }
     height: 100%;
     width: 100%;
   
-    background-color: rgba(246, 246, 246, 0.75);
-    box-shadow: 2px 2px 2px 5px rgba(246, 246, 246, 0.75);
+    background-color: rgba(246, 246, 246, .9);
   
     transform:skew(-2.5deg);
     border-top-right-radius: 40%;
@@ -269,8 +266,7 @@ canvas{ display: block; vertical-align: bottom; }
     height: 100%;
     width: 100%;
   
-    background-color: rgba(221, 221, 221, 0.75);
-    box-shadow: 2px 2px 2px 5px rgba(221, 221, 221, 0.75);
+    background-color: rgba(255, 255, 255, .9);
   
     transform:skew(2.5deg);
     border-top-right-radius: 40%;
