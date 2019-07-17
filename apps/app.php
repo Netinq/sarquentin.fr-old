@@ -1,6 +1,6 @@
 <?php
 $SITE_NAME = 'Quentin Sar';
-$SITE_DESCRIPTION = 'J\'ai le plaisir de vous présenter mon site web vitrine. Retrouvez diverses informations sur moi ainsi qu\'un apperçu de ce que je peux produire.';
+$SITE_DESCRIPTION = "J'ai le plaisir de vous présenter mon site web vitrine. Retrouvez diverses informations sur moi ainsi qu'un apperçu de ce que je peux produire.";
 $SITE_AUTHOR = 'Quentin Sar';
 $SITE_COLOR = '#ffffff';
 
