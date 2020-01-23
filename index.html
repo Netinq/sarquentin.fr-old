@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
+  <head prefix='my_namespace: http://ogp.me/ns/profile#'>
   
+    <!-- Default meta -->
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <meta name='author' content='Quentin Sar, Netinq'>
+    <meta name='owner' content='Quentin Sar'>
+    <meta name='subject' content="About me">
+    
+    <meta name='identifier-URL' content='sarquentin.fr'>
+    <meta name='keywords' content='quentin, sar'>
+    <meta name="description" content="Voilà bientôt 3 ans que j'ai découvert les domaines de l'informatique. Passionné depuis toujours par la création, j'ai décidé d'apprendre à construire mes idées et quoi de mieux que la programmation pour réaliser une idée. J'ai toujours voulus concrétiser mes ambitions, réaliser mes rêves. L'esprit de compétition nournis par ma passion du volley-ball m'a permis de toujours me dépasser pour aller plus loin et prendre en compétence et en maturité. Mon aventure commence là...">
+    <meta name='reply-to' content='contact@sarquentin.fr'>
+    
+    <meta name='language' content='FR'>
+    <meta name='target' content='all'>
+    <meta name='theme-color' content='#EEEEEE'>
+  
+    <link rel='shortcut icon' type='image/png' href='assets/img/logo.png'>
+  
+    <!-- Twitter Card meta -->
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:site' content='@Netinq'>
+    <meta name='twitter:url' content='https://sarquentin.fr' />
+    <meta name='twitter:domain' content='sarquentin.fr' />
+    
+    <!-- Open Graph meta -->
+    <meta property='og:title' content='Quentin Sar' />
+    <meta property="og:description" content="Voilà bientôt 3 ans que j'ai découvert les domaines de l'informatique. Passionné depuis toujours par la création, j'ai décidé d'apprendre à construire mes idées et quoi de mieux que la programmation pour réaliser une idée. J'ai toujours voulus concrétiser mes ambitions, réaliser mes rêves. L'esprit de compétition nournis par ma passion du volley-ball m'a permis de toujours me dépasser pour aller plus loin et prendre en compétence et en maturité. Mon aventure commence là..." />
+    <meta property='og:type' content='profile' />
+    <meta property='og:url' content='https://sarquentin.fr' />
+    <meta property='og:image' content='https://sarquentin.fr/assets/img/meta.png' />
+    <meta property='og:site_name' content='Quentin Sar' />
+    <meta property='author' content='Quentin Sar' />
+    <meta property='profile:gender' content='male' />
+
+    <!-- IOS meta -->
+    <meta name="apple-mobile-web-app-title" content="Quentin Sar">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-icon" href="assets/img/logo.png">
+    <link rel="apple-touch-startup-image" href="assets/img/logo.png">
+  
+    <title>Quentin Sar</title>
+    
+    <link rel='stylesheet' href='assets/css/master.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/section-1.css">
+
+    <link rel="preload" href="assets/img/logo.png" as="image">
+  </head>
+<body role="document" itemscope itemtype="http://schema.org/Person">
+  <section class="row" id="home">
+    <div class="container col-md-4 col-xs-12">
+      <h1 itemprop="name">Quen<br>tin<br>Sar
+      </h1>
+    </div>
+    <div class="container col-md-6 col-xs-12">
+      <div id="logo">
+        <img role="img" itemprop="image" alt="Quentin Sar's photo" src="assets/img/logo.png">
+      </div>
+      <div id="presentation">
+        <p>Voilà bientôt 3 ans que j'ai découvert les domaines de l'informatique. Passionné depuis toujours par la création, j'ai décidé d'apprendre à construire mes idées et quoi de mieux que la programmation pour réaliser une idée. J'ai toujours voulus concrétiser mes ambitions, réaliser mes rêves. L'esprit de compétition nournis par ma passion du volley-ball m'a permis de toujours me dépasser pour aller plus loin et prendre en compétence et en maturité.</p>
+      </div>
+    </div>
+    <aside class="col-md-2 col-xs-12">
+      <nav class="menu" role="navigation">
+        <ul>
+          <li style="animation: menu-spawn 2s 0s, menu-init 0s;"><a href="#home">home</a></li style="animation: menu-spawn 2s .2s, menu-init .2s;">
+          <li style="animation: menu-spawn 2s .2s, menu-init .2s;"><a href="#skills">skills</a></li>
+          <li style="animation: menu-spawn 2s .4s, menu-init .4s;"><a href="#works">works</a></li style="animation-delay: .2s;">
+          <li style="animation: menu-spawn 2s .6s, menu-init .6s;"><a href="#contact">contact</a></li style="animation-delay: .2s;">
+        </ul>
+    </nav>
+    </aside>
+    <div class="section-footer">
+      <div class="location">
+        <div class="ligne"></div>
+        home
+      </div>
+      <div role="button" class="next">
+        <img role="img" alt="bottom arrow" src="assets/img/icon/bottom-arrow.svg">
+      </div>
+    </div>
+  </section>
 </body>
 </html>
