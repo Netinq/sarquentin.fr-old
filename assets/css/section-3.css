@@ -1,0 +1,43 @@
+.work
+{
+  padding-right: 75px;
+}
+.work h2
+{
+  text-transform: uppercase;
+  color: #313131;
+  white-space: pre-line;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 10px;
+}
+.work p
+{
+  color: #313131;
+  font-size: .8em;
+  text-align: justify;
+}
+
+.work a, .work a:active, .work a:visited
+{
+  color: #313131;
+  padding: 2px;
+  z-index: 10;
+  position: relative;
+}
+.work ul li a:hover
+{
+  color: #EEEEEE;
+  transition: .5s;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px )
+{
+  .work
+  {
+    padding-right: 0px;
+    margin-top: 15vh;
+    margin-bottom: 50px;
+  }
+}

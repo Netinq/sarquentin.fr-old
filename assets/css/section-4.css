@@ -1,0 +1,63 @@
+.contact ul
+{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.contact ul li
+{
+  font-size: 1.5em;
+  color: #313131;
+  height: 25%;
+  width: auto;
+  position: relative;
+  margin-top: 25px;
+}
+.contact ul li .icon
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  height: 65px;
+  width: 65px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  line-height: 25Px;
+  text-align: center;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.contact ul li .icon img
+{
+  width: 75%;
+  display: inline-block;
+}
+.contact ul li .infos
+{
+  margin-left: 55px;
+}
+
+@media screen and (max-width: 991px )
+{
+  .contact ul 
+  {
+    margin-top: 15vh;
+    margin-bottom: 50px;
+  }
+  .contact ul li .infos
+  { 
+    margin-left: 0px;
+  }
+}
+.contact ul li h3
+{
+  text-transform: uppercase;
+  background-color: #313131;
+  color: #ffffff;
+  padding: 5px;
+  margin: 0;
+}
+.contact ul li span
+{
+  font-size: .9em;
+  font-weight: 500;
+}

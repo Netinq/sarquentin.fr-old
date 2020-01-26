@@ -6,11 +6,16 @@ h1
   letter-spacing: 10px;
   font-weight: bold;
   text-shadow: 15px 15px 4px rgba(0, 0, 0, .07);
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateY(25%);
   animation: h-spawn 3s 2s, visible 2s;
+}
+@media screen and (max-width: 991px )
+{
+  .intro
+  {
+    padding-top: 15vh;
+    margin-bottom: 50px;
+  }
 }
 @keyframes visible
 {
@@ -26,12 +31,20 @@ h1
 
 #logo
 {
-  height: 35vh;
-  width: 35vh;
+  height: 20vw;
+  width: 20vw;
   box-shadow: 15px 15px 4px rgba(0, 0, 0, .07);
   margin-top: 5%;
   margin-left: 50px;
   position: relative;
+}
+@media screen and (max-width: 991px )
+{
+  #logo {
+    margin-top: 25%;
+    height: 25vh;
+    width: 25vh;
+  }
 }
 #logo img
 {
@@ -50,10 +63,8 @@ h1
 
 #presentation
 {
-  bottom: 100px;
-  right: 0;
-  width: 30vw;
-  position: absolute;
+  margin-top: 50px;
+  float: right;
 }
 #presentation p
 {
