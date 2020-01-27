@@ -13,7 +13,11 @@ h1
 {
   .intro
   {
-    padding-top: 15vh;
+    padding-top: 17vh;
+    margin-bottom: 50px;
+  }
+  .presentation
+  {
     margin-bottom: 50px;
   }
 }
