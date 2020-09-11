@@ -165,4 +165,14 @@
         box-sizing: border-box;
         animation: translate-left 2s 1.5s, opacity 1.5s;
     }
+
+    .home-txt .home-txt-ct h1
+    {
+        font-size: 2rem;
+    }
+
+    .home-txt .home-txt-ct h2
+    {
+        font-size: 1.3rem;
+    }
 }
