@@ -7,6 +7,10 @@
     position: relative;
     justify-content: center;
 }
+#services div
+{
+    width: 100vw;
+}
 #services .txt
 {
     text-align: center;
