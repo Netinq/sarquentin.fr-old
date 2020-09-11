@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Main';
+    src: url('../fonts/BAHNSCHRIFT.TTF')  format('truetype');
+  }
+
+  html {
+    scroll-behavior: smooth !important;
+  }
+
+  body
+  {
+      margin: 0 !important;
+      font-family: 'Main' !important;
+      overflow-x: hidden;
+  }
+
+  @keyframes opacity
+  {
+      from { opacity: 0; }
+      to { opacity: 0; }
+  }
+
+  @keyframes translate-left
+  {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+  @keyframes bounce
+  {
+      0% {
+          transform: translateY(0);
+      }
+      50% {
+          transform: translateY(16px);
+      }
+      100% {
+          transform: translateY(0);
+      }
+  }
+
+  section {
+      width: 100vw;
+      min-height: 100vh;
+  }

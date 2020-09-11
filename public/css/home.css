@@ -1,0 +1,168 @@
+.home-landing
+{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-landing #home-ld-bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    max-width: 100%;
+    animation: home-ld-bg 2s;
+}
+
+@keyframes home-ld-bg
+{
+    from {
+        transform: translate(50vw);
+    }
+    to {
+        transform: translate(0);
+    }
+}
+
+.home-landing #home-ld-il
+{
+    position: absolute;
+    top: 35vh;
+    right: 20vw;
+    height: 50vh;
+    animation: home-ld-il 2s 1s, opacity 1s, bounce 3s ease-in-out infinite 3s;
+}
+
+@media (max-width: 992px)
+{
+    .home-landing #home-ld-il
+    {
+        position: absolute;
+        top: 35vh;
+        right: 50px;
+        height: auto;
+        width: 40vw;
+    }
+}
+
+@keyframes home-ld-il
+{
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.home-txt
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-txt .home-txt-ct
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.home-txt .home-txt-ct h1
+{
+    color: #FAEC71;
+    font-family: 'Main';
+    font-variation-settings: "wght" 700;
+    font-size: 3rem;
+    margin: 0;
+    animation: translate-left 2s;
+}
+
+.home-txt .home-txt-ct h2
+{
+    color: #464646;
+    font-family: 'Main';
+    font-variation-settings: "wght" 700;
+    font-size: 2.5rem;
+    animation: translate-left 2s .5s, opacity .5s;
+}
+
+.home-txt .home-txt-ct p
+{
+    margin-top: 25px;
+    color: #464646;
+    font-family: 'Main';
+    font-variation-settings: "wght" 300;
+    font-size: 1.1rem;
+    animation: translate-left 2s 1s, opacity 1s;
+}
+
+
+.home-txt .home-txt-ct .home-btn-di
+{
+    margin-top: 50px;
+    color: #ffffff;
+    background-color: #FAEC71;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 35px;
+    font-family: 'Main';
+    font-variation-settings: "wght" 300;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    animation: translate-left 2s 1.5s, opacity 1.5s;
+}
+
+@media (max-width: 768px)
+{
+    body {
+        overflow-x: hidden;
+    }
+    .home-landing
+    {
+        height: 50vh;
+    }
+    .home-landing #home-ld-bg
+    {
+        position: absolute;
+        top: 0;
+        right: -7vw;
+        max-height: 50vh;
+        max-width: 50vw;
+        animation: home-ld-bg 2s;
+    }
+
+    .home-landing #home-ld-il
+    {
+        position: absolute;
+        top: 12vh;
+        right: 50px;
+        height: 35vh;
+        width: auto;
+    }
+    .home-txt .home-txt-ct
+    {
+        margin-top: 0;
+    }
+    .home-txt .home-txt-ct .home-btn-di
+    {
+        margin-top: 50px;
+        color: #ffffff;
+        background-color: #FAEC71;
+        height: 50px;
+        width: 50vw;
+        min-width: 200px;
+        line-height: 50px;
+        text-align: center;
+        border-radius: 35px;
+        font-family: 'Main';
+        font-variation-settings: "wght" 300;
+        font-size: 1.1rem;
+        box-sizing: border-box;
+        animation: translate-left 2s 1.5s, opacity 1.5s;
+    }
+}
