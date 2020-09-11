@@ -81,3 +81,23 @@
     font-size: 1rem;
     font-variation-settings: "wght" 200;
 }
+
+
+@media (max-width: 782px) {
+    #sr-b-1 .content .top .icon img
+    {
+        height: 50px;
+    }
+    #sr-b-1 .content .top .title h2
+    {
+        font-size: 1.5rem;
+    }
+    #sr-b-1 .content .top .title h3
+    {
+        font-size: 1.2rem;
+    }
+    #sr-b-1 .content .txt .description p
+    {
+        font-size: 1rem;
+    }
+}
