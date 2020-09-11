@@ -117,10 +117,19 @@
         width: 50vw;
     }
 }
+@media (max-width: 400px)
+{
+    #services .pr-ct .pr
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 55vw;
+    }
+}
 #services .scroll
 {
     position: absolute;
-    bottom: 50px;
+    bottom: 15px;
     left: 0;
     height: 50px;
     width: 100vw;

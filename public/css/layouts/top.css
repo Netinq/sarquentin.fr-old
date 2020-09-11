@@ -1,0 +1,22 @@
+#top
+{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100000;
+    box-shadow: 0 0 5px rgba(49, 49, 49, 0.25);
+    border-radius: 50%;
+    display: none;
+    transition: .3s all;
+}
+#top img
+{
+    height: 75px;
+}
+@media (max-width: 782px)
+{
+    #top img
+    {
+        height: 50px;
+    }
+}

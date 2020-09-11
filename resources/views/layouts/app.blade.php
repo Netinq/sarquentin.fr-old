@@ -57,7 +57,11 @@
 
         <!-- STATIC Stylesheet -->
         <link rel="stylesheet" type="text/css" href="{{ asset('css/layouts/header.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('css/layouts/top.css') }}">
+
+        <!-- STATIC Scripts -->
         <script src="{{asset('js/app.js')}}"></script>
+        <script src="{{asset('js/scroll.js')}}"></script>
         <script src="{{asset('js/header.js')}}"></script>
 
         @hasSection('noMaster') @else
@@ -75,9 +79,9 @@
         @endif
     </head>
 
-    @include('layouts.header')
 
-    <body class="row">
+    <body class="row" itemscope itemtype="https://schema.org/LocalBusiness">
+        @include('layouts.header')
         @yield('content')
     </body>
 

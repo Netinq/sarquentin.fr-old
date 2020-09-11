@@ -1,6 +1,6 @@
 <header class="row d-none d-lg-flex">
     <div class="logo col-6">
-        <img src="{{asset('images/logo.png')}}" alt="Logo">
+        <img itemprop="logo" src="{{asset('images/logo.png')}}" alt="Logo">
     </div>
     <div class="menu col-6" id="menu">
         <a href="#home"><div class="menu-elem">
@@ -22,7 +22,7 @@
 </header>
 <header class="row d-flex d-lg-none">
     <div class="logo col-6">
-        <img src="{{asset('images/logo.png')}}" alt="Logo">
+        <img itemprop="logo"  src="{{asset('images/logo.png')}}" alt="Logo">
     </div>
     <div class="menu col-6">
         <svg id="open" onclick="display_header();" xmlns="http://www.w3.org/2000/svg" width="38" height="21" viewBox="0 0 38 21"  alt="Burger Menu">

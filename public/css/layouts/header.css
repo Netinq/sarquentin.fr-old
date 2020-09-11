@@ -129,7 +129,7 @@ header .menu #open
     display: flex;
     align-items:center;
     position: absolute;
-    right: 50px;
+    right: var(--margin-side);
     user-select: none;
 }
 
@@ -140,6 +140,7 @@ header .menu #open
     vertical-align: middle;
     margin-right: 10px;
 }
+
 
 .menu-m .top span
 {
@@ -153,6 +154,23 @@ header .menu #open
     height: 60vh;
     position: absolute;
     bottom: 0;
+}
+
+@media (max-height: 730px)
+{
+    .menu-m .top
+    {
+        right: var(--margin-side);
+    }
+    .menu-m #close img
+    {
+        height: 20px;
+    }
+    .menu-m .top span
+    {
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
 }
 
 .menu-m .list .elem
