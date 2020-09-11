@@ -41,12 +41,12 @@
         <span>Fermer</span>
     </div>
     <div class="list">
-        <a href="#">
+        <a href="#home" onclick="hide_header();">
             <div class="elem">
                 Accueil
             </div>
         </a>
-        <a href="#">
+        <a href="#services" onclick="hide_header();">
             <div class="elem">
                 Services
             </div>

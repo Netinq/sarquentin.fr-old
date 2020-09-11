@@ -89,7 +89,7 @@ header .menu #open
     display: none;
     user-select: none;
     transition: .3 all;
-    animation: menu-m 3s;
+    animation: menu-m 1s;
 }
 
 @keyframes menu-m
@@ -108,7 +108,7 @@ header .menu #open
     top: 0;
     right: -7vw;
     height: 40vh;
-    animation: menu-landing 2s 1s, opacity 1s;
+    animation: menu-landing 1s, opacity;
 }
 
 @keyframes menu-landing
@@ -167,7 +167,7 @@ header .menu #open
     font-size: 5vh;
     font-variation-settings: "wght" 300;
     position: relative;
-    animation: menu-elem 1s 2s, opacity 2s;
+    animation: menu-elem 1s 1s, opacity 1s;
 }
 
 @keyframes menu-elem
