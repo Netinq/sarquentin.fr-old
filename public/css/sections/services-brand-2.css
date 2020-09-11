@@ -84,19 +84,19 @@
 
 
 @media (max-width: 782px) {
-    #sr-b-1 .content .top .icon img
+    #sr-b-2 .content .top .icon img
     {
         height: 50px;
     }
-    #sr-b-1 .content .top .title h2
+    #sr-b-2 .content .top .title h2
     {
         font-size: 1.5rem;
     }
-    #sr-b-1 .content .top .title h3
+    #sr-b-2 .content .top .title h3
     {
         font-size: 1.2rem;
     }
-    #sr-b-1 .content .txt .description p
+    #sr-b-2 .content .txt .description p
     {
         font-size: 1rem;
     }
