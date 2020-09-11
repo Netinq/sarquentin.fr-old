@@ -8,6 +8,7 @@ header
     margin: 0 !important;
     padding: 0;
     z-index: 10000;
+    transition: .3s all;
 }
 
 header .logo
@@ -193,3 +194,47 @@ header .menu #open
     height: 2px;
     background-color: #ececec;
 } */
+
+.header-scroll
+{
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #ebebeb;
+}
+.header-scroll .logo img
+{
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.header-scroll .menu .menu-elem
+{
+    height: 100%;
+    line-height: 70px;
+    font-size: 1.2rem;
+    font-family: 'Main';
+    font-variation-settings: "wght" 300;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #222222;
+    position: relative;
+}
+.header-scroll .menu .menu-elem::before
+{
+    display: none;
+}
+.header-scroll .menu .menu-elem:hover
+{
+    background-color: #f1f1f1;
+}
+.header-scroll .menu #open #burger > *
+{
+    stroke: #222222;
+}
+.header-scroll .menu #open
+{
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 50px;
+    cursor: pointer;
+}

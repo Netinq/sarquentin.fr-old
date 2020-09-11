@@ -25,7 +25,13 @@
         <img src="{{asset('images/logo.png')}}">
     </div>
     <div class="menu col-6">
-        <img onclick="display_header();" id="open" src="{{asset('images/svg/burger.svg')}}">
+        <svg id="open" onclick="display_header();" xmlns="http://www.w3.org/2000/svg" width="38" height="21" viewBox="0 0 38 21">
+            <g id="burger" transform="translate(-285 -22)">
+              <line id="Ligne_8" data-name="Ligne 8" x2="35" transform="translate(286.5 23.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+              <line id="Ligne_9" data-name="Ligne 9" x2="19" transform="translate(302.5 32.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+              <line id="Ligne_10" data-name="Ligne 10" x2="27" transform="translate(294.5 41.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+            </g>
+          </svg>
     </div>
 </header>
 <div class="menu-m">
@@ -62,12 +68,3 @@
         </a>
     </div>
 </div>
-
-<script>
-    $(".page-header ul a").on("click", function (e) {
-    e.preventDefault();
-    const href = $(this).attr("href");
-    $("html, body").animate({ scrollTop: $(href).offset().top }, 800);
-  });
-
-</script>
