@@ -1,3 +1,17 @@
+:root
+{
+    --margin-side: 50px;
+    --yellow: #FAEC71;
+}
+
+@media (max-width: 768px)
+{
+    :root
+    {
+        --margin-side: 25px;
+    }
+}
+
 @font-face {
     font-family: 'Main';
     src: url('../fonts/BAHNSCHRIFT.TTF')  format('truetype');

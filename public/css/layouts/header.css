@@ -20,7 +20,7 @@ header .logo img
 {
     height: 60px;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: calc(var(--margin-side) - 15px);
 }
 
 header .menu
@@ -29,7 +29,7 @@ header .menu
     flex-direction: row;
     position: absolute;
     justify-content: flex-end;
-    right: 40px;
+    right: calc(var(--margin-side) - 25px);
     width: 100%;
 }
 
@@ -233,4 +233,21 @@ header .menu #open
     margin-right: 50px;
     cursor: pointer;
 }
-/* test */
+
+.header-scroll .menu .menu-selected
+{
+    color: var(--yellow);
+    font-variation-settings: "wght" 400;
+    position: relative;
+    transition: .3 all;
+}
+.header-scroll .menu .menu-selected::after
+{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--yellow);
+}

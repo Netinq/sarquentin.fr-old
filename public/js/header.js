@@ -20,3 +20,27 @@ window.addEventListener('scroll', function(e) {
     }
 
 });
+
+$(document).ready(function () {
+    $(document).on("scroll", onScroll);
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#menu a').each(function () {
+        var currLink = $(this);
+        var refElement;
+        try {
+            refElement= $(currLink.attr("href"));
+        } catch (error) {
+
+        }
+        if (refElement != null && refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#menu a div').removeClass("menu-selected");
+            currLink.children().addClass("menu-selected");
+        }
+        else{
+            currLink.children().removeClass("menu-selected");
+        }
+    });
+}

@@ -1,10 +1,10 @@
-.home-landing
+#home .home-landing
 {
     height: 100vh;
     overflow: hidden;
 }
 
-.home-landing #home-ld-bg
+#home .home-landing #home-ld-bg
 {
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@
     }
 }
 
-.home-landing #home-ld-il
+#home .home-landing #home-ld-il
 {
     position: absolute;
     top: 35vh;
@@ -35,7 +35,7 @@
 
 @media (max-width: 992px)
 {
-    .home-landing #home-ld-il
+    #home .home-landing #home-ld-il
     {
         position: absolute;
         top: 35vh;
@@ -57,21 +57,21 @@
     }
 }
 
-.home-txt
+#home .home-txt
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.home-txt .home-txt-ct
+#home .home-txt .home-txt-ct
 {
     margin-top: 50px;
     margin-left: calc(var(--margin-side) - 15px);
     margin-right: calc(var(--margin-side) - 15px);
 }
 
-.home-txt .home-txt-ct h1
+#home .home-txt .home-txt-ct h1
 {
     color: #FAEC71;
     font-family: 'Main';
@@ -81,7 +81,7 @@
     animation: translate-left 2s;
 }
 
-.home-txt .home-txt-ct h2
+#home .home-txt .home-txt-ct h2
 {
     color: #464646;
     font-family: 'Main';
@@ -90,7 +90,7 @@
     animation: translate-left 2s .5s, opacity .5s;
 }
 
-.home-txt .home-txt-ct p
+#home .home-txt .home-txt-ct p
 {
     margin-top: 25px;
     color: #464646;
@@ -101,7 +101,7 @@
 }
 
 
-.home-txt .home-txt-ct .home-btn-di
+#home .home-txt .home-txt-ct .home-btn-di
 {
     margin-top: 50px;
     color: #ffffff;
@@ -123,11 +123,11 @@
     body {
         overflow-x: hidden;
     }
-    .home-landing
+    #home .home-landing
     {
         height: 50vh;
     }
-    .home-landing #home-ld-bg
+    #home .home-landing #home-ld-bg
     {
         position: absolute;
         top: 0;
@@ -137,7 +137,7 @@
         animation: home-ld-bg 2s;
     }
 
-    .home-landing #home-ld-il
+    #home .home-landing #home-ld-il
     {
         position: absolute;
         top: 12vh;
@@ -145,11 +145,11 @@
         height: 35vh;
         width: auto;
     }
-    .home-txt .home-txt-ct
+    #home .home-txt .home-txt-ct
     {
         margin-top: 0;
     }
-    .home-txt .home-txt-ct .home-btn-di
+    #home .home-txt .home-txt-ct .home-btn-di
     {
         margin-top: 50px;
         color: #ffffff;
@@ -167,12 +167,12 @@
         animation: translate-left 2s 1.5s, opacity 1.5s;
     }
 
-    .home-txt .home-txt-ct h1
+    #home .home-txt .home-txt-ct h1
     {
         font-size: 2rem;
     }
 
-    .home-txt .home-txt-ct h2
+    #home .home-txt .home-txt-ct h2
     {
         font-size: 1.3rem;
     }

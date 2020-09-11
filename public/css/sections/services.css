@@ -1,0 +1,113 @@
+#services
+{
+    padding-top: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#services .txt
+{
+    text-align: center;
+}
+#services .txt h2
+{
+    font-size: 2.8rem;
+}
+#services .txt p
+{
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 200;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+}
+@media (max-width: 992px){
+    #services .txt h2 {
+        font-size: 2.2rem;
+    }
+    #services .txt p {
+        font-size: 1rem;
+    }
+}
+#services .pr-ct
+{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+}
+#services .pr-ct .pr
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(100% / 3 - 50px);
+    height: 100%;
+    background-color: #F9F9F9;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    height: 300px;
+    position: relative;
+}
+#services .pr-ct .pr img
+{
+    height: 30%;
+}
+#services .pr-ct .pr h3
+{
+    margin-top: 25px;
+}
+#services .pr-ct .pr p
+{
+    margin-top: 15px;
+    font-size: .9rem;
+    font-variation-settings: "wght" 300;
+}
+@media (max-width: 992px)
+{
+    #services
+    {
+        overflow-x: hidden;
+    }
+    #services .pr-ct
+    {
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+        overflow-x: scroll;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    }
+    #services .pr-ct::-webkit-scrollbar { /* WebKit */
+        width: 0;
+        height: 0;
+    }
+    #services .pr-ct .pr
+    {
+        flex: none;
+        width: 35vw;
+    }
+}
+@media (max-width: 782px)
+{
+    #services .pr-ct .pr
+    {
+        flex: none;
+        width: 50vw;
+    }
+}
+#services .scroll
+{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Main';
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 100;
+}
+#services .scroll img {
+    margin-left: 15px;
+}
