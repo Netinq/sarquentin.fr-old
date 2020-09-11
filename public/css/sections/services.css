@@ -90,6 +90,27 @@
 }
 @media (max-width: 782px)
 {
+    #services .txt h2
+    {
+        font-size: 1.5rem;
+    }
+    #services .txt p
+    {
+        font-size: .9rem;
+        padding: 0;
+    }
+    #services .pr-ct
+    {
+        margin-top: 25px;
+    }
+    #services .pr-ct .pr h3
+    {
+        font-size: 1.2rem;
+    }
+    #services .pr-ct .pr p
+    {
+        font-size: .8rem;
+    }
     #services .pr-ct .pr
     {
         flex: none;

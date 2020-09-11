@@ -120,9 +120,6 @@
 
 @media (max-width: 768px)
 {
-    body {
-        overflow-x: hidden;
-    }
     #home .home-landing
     {
         height: 50vh;
