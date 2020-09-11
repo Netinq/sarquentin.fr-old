@@ -17,7 +17,7 @@
 
         <meta name='language' content='FR'>
         <meta name='target' content='all'>
-        <meta name='theme-color' content='#43757D'>
+        <meta name='theme-color' content='#FAEC71'>
 
         <link rel='shortcut icon' type='image/png' href='{{ asset('images/logo.png') }}'>
         <link rel='logo' type='image/png' href='{{ asset('images/logo.png') }}'>
