@@ -16,7 +16,7 @@
             Devis
         </div></a>
         <a href="#"><div class="menu-elem">
-            About
+            A propos
         </div></a>
     </div>
 </header>
@@ -63,7 +63,7 @@
         </a>
         <a href="#">
             <div class="elem">
-                About
+                A propos
             </div>
         </a>
     </div>

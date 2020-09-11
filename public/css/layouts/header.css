@@ -29,7 +29,7 @@ header .menu
     flex-direction: row;
     position: absolute;
     justify-content: flex-end;
-    right: 0;
+    right: 40px;
     width: 100%;
 }
 
@@ -96,11 +96,6 @@ header .menu #open
 {
     0% {
         opacity: 0;
-        backdrop-filter: blur(0);
-    }
-    50% {
-        opacity: 1;
-        backdrop-filter: blur(10px);
     }
     100% {
         opacity: 1;
@@ -112,7 +107,7 @@ header .menu #open
     position: absolute;
     top: 0;
     right: -7vw;
-    height: 50vh;
+    height: 40vh;
     animation: menu-landing 2s 1s, opacity 1s;
 }
 
