@@ -190,7 +190,7 @@
     }
     #tarifs .pr-ct .pr .head p
     {
-        font-size: .9rem;
+        font-size: .8rem;
     }
     #tarifs .pr-ct .pr .price span
     {
@@ -210,6 +210,7 @@
         flex-grow: 0;
         flex-shrink: 0;
         overflow-x: scroll;
+        overflow-y: hidden;
         scrollbar-width: none; /* Firefox */
         -ms-overflow-style: none;  /* Internet Explorer 10+ */
     }
@@ -245,6 +246,10 @@
     {
         flex: none;
         width: 50vw;
+    }
+    #tarifs .pr-ct .pr .elem p
+    {
+        font-size: .7rem;
     }
 }
 @media (max-width: 500px)
