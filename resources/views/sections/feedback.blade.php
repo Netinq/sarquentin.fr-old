@@ -8,7 +8,7 @@
                 <div class="list" id="scroll-reviews">
                     @foreach ( $reviews as $review )
                     <div class="elem" itemscope itemtype="https://schema.org/Review">
-                        <meta itemprop="itemReviewed" content = "service">
+                        <meta itemprop="author" content = "{{$review[0][1]}}">
                         <div class="note" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                             <meta itemprop="ratingValue" content = "{{$review[4]}}">
                             @for ($i = 0; $i < (5 - $review[4]); $i++)
@@ -20,7 +20,10 @@
                         </div>
                         <div class="review">
                             <p itemprop="reviewBody">{{$review[3]}}</p>
-                            <span itemscope itemtype="https://schema.org/Person">({{ ($loop->index+1) }} / {{count($reviews)}} avis ) <span itemprop="author">{{$review[0][1]}}</span></span>
+                            <span>({{ ($loop->index+1) }} / {{count($reviews)}} avis ) {{$review[0][1]}}</span>
+                        </div>
+                        <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
+                            <meta itemprop="name" content = "MONSIEUR SAR QUENTIN">
                         </div>
                     </div>
                     @endforeach
