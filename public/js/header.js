@@ -35,7 +35,8 @@ function onScroll(event){
         } catch (error) {
 
         }
-        if (refElement != null && refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        if (refElement.position() == null || refElement.position() == undefined ) return;
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#menu a div').removeClass("menu-selected");
             currLink.children().addClass("menu-selected");
         }

@@ -9,13 +9,13 @@
         <a href="#services"><div class="menu-elem">
             Services
         </div></a>
-        <a href="#"><div class="menu-elem">
+        <a href="#tarifs"><div class="menu-elem">
             Tarifs
         </div></a>
-        <a href="#"><div class="menu-elem">
+        <a href="#devis"><div class="menu-elem">
             Devis
         </div></a>
-        <a href="#"><div class="menu-elem">
+        <a href="#plus"><div class="menu-elem">
             Plus
         </div></a>
     </div>
@@ -51,17 +51,17 @@
                 Services
             </div>
         </a>
-        <a href="#">
+        <a href="#tarifs">
             <div class="elem">
                 Tarifs
             </div>
         </a>
-        <a href="#">
+        <a href="#devis">
             <div class="elem">
                 Devis
             </div>
         </a>
-        <a href="#">
+        <a href="#plus">
             <div class="elem">
                 Plus
             </div>

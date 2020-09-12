@@ -1,5 +1,5 @@
 <section id="services" class="row">
-    <div>
+    <div class="hide">
         <div class="txt col-12 col-sm-10 col-md-8 col-xl-6 offset-sm-1 offset-md-2 offset-xl-3">
             <h2>Notre prestation de services</h2>
             <p>Nous vous proposons un ensemble de services complet afin de réaliser au mieux votre projet.</p>

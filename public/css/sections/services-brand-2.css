@@ -4,6 +4,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    animation: translate-left-big 2s;
 }
 #sr-b-2 .landing
 {
@@ -45,6 +46,7 @@
 {
     margin-top: 5px;
     height: 75px;
+    animation: translate-right 1.5s;
 }
 #sr-b-2 .content .top .title
 {
@@ -55,12 +57,14 @@
     margin: 0;
     font-size: 2.5rem;
     font-variation-settings: "wght" 600;
+    animation: translate-right 1.5s .5s, opacity .5s;
 }
 #sr-b-2 .content .top .title h3
 {
     margin: 0;
     font-size: 2rem;
     font-variation-settings: "wght" 400;
+    animation: translate-right 1.5s 1s, opacity 1s;
 }
 #sr-b-2 .content .txt .description
 {
@@ -70,10 +74,20 @@
 {
     font-size: 1.2rem;
     font-variation-settings: "wght" 200;
+    animation: translate-right 1.5s 1.5s, opacity 1.5s;
 }
 #sr-b-2 .content .txt .list .elem
 {
     margin-top: 10px;
+}
+#sr-b-2 .content .txt .list .elem:nth-child(1) {
+    animation: translate-right 1.5s 2s, opacity 2s;
+}
+#sr-b-2 .content .txt .list .elem:nth-child(2) {
+    animation: translate-right 1.5s 2.5s, opacity 2.5s;
+}
+#sr-b-2 .content .txt .list .elem:nth-child(3) {
+    animation: translate-right 1.5s 3s, opacity 3s;
 }
 #sr-b-2 .content .txt .list span
 {

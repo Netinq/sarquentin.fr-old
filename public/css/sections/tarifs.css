@@ -1,0 +1,215 @@
+#tarifs
+{
+    padding-top: 100px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#tarifs div
+{
+    width: 100vw;
+}
+#tarifs .txt
+{
+    text-align: center;
+}
+#tarifs .txt h2
+{
+    font-size: 2.8rem;
+    animation: translate-top 2s;
+}
+#tarifs .txt p
+{
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 200;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0;
+    animation: translate-top 2s 1s, opacity 1s;
+}
+#tarifs .pr-ct
+{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#tarifs .pr-ct .pr
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    width: calc(100% / 3 - 50px);
+    border: 1px solid #D5D5D5;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    height: 350px;
+    position: relative;
+    margin-bottom: 25px;
+}
+#tarifs .pr-ct .pr:nth-child(1) {
+    animation: translate-left-big 2s;
+}
+#tarifs .pr-ct .pr:nth-child(2) {
+    animation: translate-left-big 2s .5s, opacity .5s;
+}
+#tarifs .pr-ct .pr:nth-child(3) {
+    animation: translate-left-big 2s 1s, opacity 1s;
+}
+#tarifs .pr-ct .pr .head
+{
+    width: 100%;
+    position: relative;
+    padding-bottom: 15px;
+}
+#tarifs .pr-ct .pr .head::after
+{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 1px;
+    width: calc(100% - 10px);
+    background-color: #D5D5D5;
+}
+#tarifs .pr-ct .pr .head h3
+{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-variation-settings: "wght" 400;
+}
+#tarifs .pr-ct .pr .head p
+{
+    font-size: 1.1rem;
+    font-variation-settings: "wght" 200;
+    line-height: 1;
+    margin: 0;
+}
+#tarifs .pr-ct .pr .price
+{
+    width: 100%;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#tarifs .pr-ct .pr .price::after
+{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    height: 1px;
+    width: calc(100% - 10px);
+    background-color: #D5D5D5;
+}
+#tarifs .pr-ct .pr .price span
+{
+    color: var(--yellow);
+    font-size: 1rem;
+    font-variation-settings: "wght" 100;
+}
+#tarifs .pr-ct .pr .price p
+{
+    color: var(--yellow);
+    font-size: 2.8rem;
+    font-variation-settings: "wght" 300;
+    margin: 0;
+    line-height: .8;
+}
+#tarifs .pr-ct .pr .list
+{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+#tarifs .pr-ct .pr .elem
+{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    margin-bottom: 5px;
+}
+#tarifs .pr-ct .pr .elem img
+{
+    display: inline-block;
+}
+#tarifs .pr-ct .pr .elem p
+{
+    display: inline-block;
+    margin: 0;
+    margin-left: 5px;
+    font-variation-settings: "wght" 100;
+}
+#tarifs .pr-ct .pr .elem p .option
+{
+    color: #B084FC;
+    font-size: .7rem;
+}
+#tarifs .pr-ct .pr .elem p .o-price
+{
+    color: #B084FC;
+    font-size: 1.2rem;
+    margin-left: 25px;
+}
+#tarifs .pr-ct .pr .elem p .o-desc
+{
+    color: #B084FC;
+    font-size: 1rem;
+}
+#tarifs .pr-ct .pr .devis
+{
+    height: 55px;
+    background-color: var(--yellow);
+    width: 75%;
+    position: absolute;
+    bottom: -25px;
+    left: 12.5%;
+    line-height: 55px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 300;
+    border-radius: 35px;
+}
+
+@media (max-width: 992px)
+{
+    #tarifs
+    {
+        overflow-x: hidden;
+    }
+    #tarifs .pr-ct
+    {
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+        overflow-x: scroll;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    }
+    #tarifs .pr-ct::-webkit-scrollbar { /* WebKit */
+        width: 0;
+        height: 0;
+    }
+    #tarifs .pr-ct .pr
+    {
+        flex: none;
+        width: 35vw;
+    }
+}
+#tarifs .scroll
+{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    height: 25px;
+    width: 100vw;
+    text-align: center;
+    font-family: 'Main';
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 100;
+}
+#tarifs .scroll img {
+    margin-left: 15px;
+}
