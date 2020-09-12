@@ -8,8 +8,8 @@
                 <div class="list" id="scroll-reviews">
                     @foreach ( $reviews as $review )
                     <div class="elem" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="author" itemtype="https://schema.org/Person" content = "{{$review[0][1]}}">
                         <meta itemprop="itemReviewed" content = "service">
-                        <meta itemprop="author" content = "{{$review[0][1]}}">
                         <div class="note" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                             <meta itemprop="ratingValue" content = "{{$review[4]}}">
                             @for ($i = 0; $i < (5 - $review[4]); $i++)
