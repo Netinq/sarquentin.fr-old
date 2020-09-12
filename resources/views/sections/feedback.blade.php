@@ -9,13 +9,12 @@
                     @foreach ( $reviews as $review )
                     <div class="elem" itemscope itemtype="https://schema.org/Review">
                         <meta itemprop="author" content = "{{$review[0][1]}}">
-                        <meta itemprop="image" content = "{{asset('images/landing/fb-ld-il.png')}}">
                         <div class="note" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                             <meta itemprop="ratingValue" content = "{{$review[4]}}">
                             @for ($i = 0; $i < (5 - $review[4]); $i++)
                             <img src="{{asset('images/svg/star.svg')}}" alt="Star icon">
                             @endfor
-                            @for ($i = 0; $i < $review[4]; $i++)
+                            @for ($i = 0; $i <div $review[4]; $i++)
                             <img src="{{asset('images/svg/star-filled.svg')}}" alt="Filled star icon">
                             @endfor
                         </div>
@@ -25,6 +24,7 @@
                         </div>
                         <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
                             <meta itemprop="name" content = "MONSIEUR SAR QUENTIN">
+                            <meta itemprop="image" content = "{{asset('images/meta.png')}}">
                         </div>
                     </div>
                     @endforeach
