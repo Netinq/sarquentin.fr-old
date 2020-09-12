@@ -1,0 +1,120 @@
+#feedback .landing-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    animation: translate-left 1.5s;
+}
+#feedback .landing-il {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    height: 50vh;
+    animation: translate-top 2s .5s, bounce ease-in-out 3s 2.5s infinite, opacity .5s;
+}
+@media (max-width: 992px)
+{
+    #feedback .landing-bg {
+        max-height: 80vh;
+        height: auto;
+        max-width: 50vw;
+    }
+    #feedback .landing-il {
+        max-height: 50vh;
+        height: auto;
+        max-width: 40vw;
+    }
+}
+#feedback .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+#feedback .content .feedback
+{
+    text-align: center;
+}
+@media (max-width: 768px)
+{
+    #feedback .content
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        height: 100vh;
+    }
+    #feedback .content .feedback
+    {
+        margin-top: 45vh;
+    }
+}
+#feedback .content .feedback h2
+{
+    font-size: 2.5rem;
+    font-variation-settings: "wght" 500;
+    animation: translate-right 2s;
+}
+#feedback .content .feedback .list
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    flex-wrap: nowrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow-x: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+#feedback .list::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+#feedback .list .elem
+{
+    flex: none;
+    width: 100%;
+}
+#feedback .content .feedback .note img
+{
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#feedback .content .feedback .note img:nth-child(1) {
+    animation: translate-right 2s .5s, opacity .5s;
+}
+#feedback .content .feedback .note img:nth-child(2) {
+    animation: translate-right 2s 1s, opacity 1s;
+}
+#feedback .content .feedback .note img:nth-child(3) {
+    animation: translate-right 2s 1.5s, opacity 1.5s;
+}
+#feedback .content .feedback .note img:nth-child(4) {
+    animation: translate-right 2s 2s, opacity 2s;
+}
+#feedback .content .feedback .note img:nth-child(5) {
+    animation: translate-right 2s 2.5s, opacity 2.5s;
+}
+#feedback .content .feedback .review
+{
+    margin-top: 15px;
+}
+#feedback .content .feedback .review p
+{
+    font-size: 1.2rem;
+    font-variation-settings: "wght" 200;
+    margin: 0;
+    margin-bottom: 25px;
+    animation: translate-right 2s 3s, opacity 3s;
+}
+#feedback .content .feedback .review span
+{
+    font-size: 1rem;
+    font-variation-settings: "wght" 500;
+    animation: translate-right 2s 3.5s, opacity 3.5s;
+}

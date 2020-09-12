@@ -6,7 +6,7 @@
                 <meta itemprop="category" content="Web Design" />
                 <div class="top">
                     <div class="icon">
-                        <img itemprop="logo" src="{{asset('images/pres/design.png')}}">
+                        <img itemprop="logo" src="{{asset('images/pres/design.png')}}" alt="Design icon">
                     </div>
                     <div class="title" itemprop="slogan">
                         <h2>Créons ensemble</h2>
@@ -19,21 +19,21 @@
                     </div>
                     <div class="list">
                         <div class="elem" itemscope itemtype="https://schema.org/Thing">
-                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}">
+                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}" alt="Arrow right circle">
                             <span itemprop="description">Réalisation de maquettes</span>
                         </div>
                         <div class="elem" itemscope itemtype="https://schema.org/Thing">
-                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}">
+                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}" alt="Arrow right circle">
                             <span itemprop="description">Echange avec le client</span>
                         </div>
                         <div class="elem" itemscope itemtype="https://schema.org/Thing">
-                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}">
+                            <img itemprop="image" src="{{asset('images/svg/arrow-right-circle.svg')}}" alt="Arrow right circle">
                             <span itemprop="description">Page par page</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <img class="landing-bg" src="{{asset('images/landing/sr-b-1.png')}}">
+        <img class="landing-bg" src="{{asset('images/landing/sr-b-1.png')}}" alt="Landing background">
     </div>
 </section>

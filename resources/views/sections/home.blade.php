@@ -18,7 +18,7 @@
             <h1>Lancez votre activité</h1>
             <h2>Sur le web, dès maintenant</h2>
             <p itemprop="slogan">Créez votre vitrine en ligne, développez un e-commerce, proposez un service de réservation en ligne à vos clients...</p>
-            <a href="#"><div class="home-btn-di">
+            <a href="#services"><div class="home-btn-di">
                 Découvrir
             </div></a>
         </div>

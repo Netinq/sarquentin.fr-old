@@ -51,17 +51,17 @@
                 Services
             </div>
         </a>
-        <a href="#tarifs">
+        <a href="#tarifs" onclick="hide_header();">
             <div class="elem">
                 Tarifs
             </div>
         </a>
-        <a href="#devis">
+        <a href="#devis" onclick="hide_header();">
             <div class="elem">
                 Devis
             </div>
         </a>
-        <a href="#plus">
+        <a href="#plus" onclick="hide_header();">
             <div class="elem">
                 Plus
             </div>

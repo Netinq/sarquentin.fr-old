@@ -21,8 +21,8 @@ function scrollHide(event) {
 
     $('section').each(function () {
         var refElement = $(this);
-        scrollPos += ($(this).height() / 3);
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos)
+
+        if (refElement.position().top <= scrollPos + ($(this).height() / 3) && refElement.position().top + refElement.height() > scrollPos + ($(this).height() / 3) && refElement.children().hasClass('hide'))
         {
             refElement.children().removeClass('hide');
         }

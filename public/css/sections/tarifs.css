@@ -175,6 +175,31 @@
 
 @media (max-width: 992px)
 {
+    #tarifs .txt h2
+    {
+        font-size: 1.5rem;
+    }
+    #tarifs .txt p
+    {
+        font-size: .9rem;
+        padding: 0;
+    }
+    #tarifs .pr-ct .pr .head h3
+    {
+        font-size: 1.5rem;
+    }
+    #tarifs .pr-ct .pr .head p
+    {
+        font-size: .9rem;
+    }
+    #tarifs .pr-ct .pr .price span
+    {
+        font-size: .8rem;
+    }
+    #tarifs .pr-ct .pr .price p
+    {
+        font-size: 2.5rem;
+    }
     #tarifs
     {
         overflow-x: hidden;
@@ -212,4 +237,22 @@
 }
 #tarifs .scroll img {
     margin-left: 15px;
+}
+
+@media (max-width: 782px)
+{
+    #tarifs .pr-ct .pr
+    {
+        flex: none;
+        width: 50vw;
+    }
+}
+@media (max-width: 500px)
+{
+    #tarifs .pr-ct .pr
+    {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 60vw;
+    }
 }

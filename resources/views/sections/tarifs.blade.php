@@ -1,10 +1,10 @@
 <section id="tarifs" class="row">
     <div class="hide">
-        <div class="txt col-12 col-sm-10 col-md-8 col-xl-6 offset-sm-1 offset-md-2 offset-xl-3">
+        <div class="txt col-12 col-sm-10 col-xl-6 offset-sm-1 offset-xl-3">
             <h2>Notre gamme d'offres</h2>
             <p>Nous vous proposons un choix de trois offres afin de nous adapter au mieux selon vos besoin.</p>
         </div>
-        <div class="pr-ct col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+        <div class="pr-ct col-lg-12 col-xl-10 offset-xl-1">
             <div class="pr">
                 <div class="head">
                     <h3>Onepage</h3>
