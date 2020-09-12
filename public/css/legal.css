@@ -1,0 +1,43 @@
+.home-landing
+{
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.home-landing #home-ld-bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    max-width: 100%;
+    animation: home-ld-bg 2s;
+}
+.content
+{
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: var(--margin-side);
+    margin-right: var(--margin-side);
+}
+
+@media (max-width: 768px) {
+    .home-landing #home-ld-bg
+    {
+        max-width: 30vw;
+        max-height: 35vh;
+        right: -7vw;
+        height: auto;
+    }
+    .content
+    {
+        position: absolute;
+        margin-top: 35vh;
+        margin-left: var(--margin-side);
+        margin-right: var(--margin-side);
+        width: calc(100vw - (2*var(--margin-side)));
+    }
+}

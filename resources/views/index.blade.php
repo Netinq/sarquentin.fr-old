@@ -5,7 +5,8 @@
     'sections/services-brand-2',
     'sections/tarifs',
     'sections/feedback',
-    'sections/devis'
+    'sections/devis',
+    'sections/more'
     ]])
 
 @section('content')
@@ -18,5 +19,6 @@
     @include('sections.tarifs')
     @include('sections.feedback')
     @include('sections.devis')
+    @include('sections.more')
 </div>
 @endsection

@@ -28,4 +28,9 @@ class MainController extends Controller
         }
         return view('index', compact('reviews'));
     }
+
+    public function legal()
+    {
+        return view('legal');
+    }
 }

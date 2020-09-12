@@ -1,6 +1,6 @@
 <section id="devis">
     <div class="hide row">
-        <div class="content col-8 offset-2 col-md-5 col-xl-4 offset-1 offset-xl-2 row">
+        <div class="content col-8 col-md-5 col-xl-4 offset-2 offset-md-1 offset-xl-2 row">
             <div class="txt">
                 <h2>Complétez le formulaire pour demander un devis</h2>
                 <p>Après l'envoie du formulaire, nous vous recontacterons dans des plus bref délais afin d'échanger sur votre projet.</p>

@@ -81,6 +81,9 @@
 
 
     <body class="row" itemscope itemtype="https://schema.org/LocalBusiness">
+        <meta itemprop="name" content = "MONSIEUR SAR QUENTIN">
+        <meta itemprop="url" content = "https://sarquentin.fr">
+        <meta itemprop="telephone" content = "0750976893">
         @include('layouts.header')
         @yield('content')
     </body>

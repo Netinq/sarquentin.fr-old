@@ -15,7 +15,7 @@
         <a href="#devis"><div class="menu-elem">
             Devis
         </div></a>
-        <a href="#plus"><div class="menu-elem">
+        <a href="#more"><div class="menu-elem">
             Plus
         </div></a>
     </div>
@@ -61,7 +61,7 @@
                 Devis
             </div>
         </a>
-        <a href="#plus" onclick="hide_header();">
+        <a href="#more" onclick="hide_header();">
             <div class="elem">
                 Plus
             </div>
