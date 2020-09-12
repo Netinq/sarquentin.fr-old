@@ -31,11 +31,11 @@ function onScroll(event){
         var currLink = $(this);
         var refElement;
         try {
-            refElement= $(currLink.attr("href"));
+            refElement= $(currLink.attr("href").replace(document.location.origin, ''));
         } catch (error) {
 
         }
-        if (refElement.position() == null || refElement.position() == undefined ) return;
+        if (refElement == null || refElement == undefined ) return;
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('#menu a div').removeClass("menu-selected");
             currLink.children().addClass("menu-selected");
