@@ -20,7 +20,7 @@
                         </div>
                         <div class="review">
                             <p itemprop="reviewBody">{{$review[3]}}</p>
-                            <span>({{ ($loop->index+1) }} / {{count($reviews)}} avis ) <i itemprop="author">{{$review[0][1]}}</i></span>
+                            <span>({{ ($loop->index+1) }} / {{count($reviews)}} avis ) <span itemprop="author">{{$review[0][1]}}</span></span>
                         </div>
                     </div>
                     @endforeach
