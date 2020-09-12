@@ -46,7 +46,7 @@
 @media (max-width: 600px) {
     #more footer .list .elem
     {
-        width: calc(51vw - 50px);
+        width: calc(80vw - 50px);
     }
 }
 #more footer .list .elem a

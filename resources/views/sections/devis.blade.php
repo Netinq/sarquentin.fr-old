@@ -7,11 +7,11 @@
                 <img src="{{asset('images/svg/send.svg')}}" alt="Send icon">
             </div>
         </div>
-        <div class="content col-12 col-md-5 col-xl-4 offset-1 row">
+        <div class="content col-12 col-md-5 col-xl-4 row" style="margin: 0; margin-top: 50px">
             <form method="POST" action="{{route('sendmail')}}">
                 @csrf
                 <div class="form-group row">
-                    <div class="offset-1 col-8">
+                    <div class="offset-2 col-8">
                         <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" required autocomplete="name" value="{{ old('name') }}">
                         <label for="name">Nom</label>
                         @error('name')
@@ -20,7 +20,7 @@
                             </span>
                         @enderror
                     </div>
-                    <div class="offset-1 col-8">
+                    <div class="offset-2 col-8">
                         <input id="email" type="text" class="form-control @error('email') is-invalid @enderror" name="email" required autocomplete="email" value="{{ old('email') }}">
                         <label for="email">Adresse email</label>
                         @error('email')
@@ -29,7 +29,7 @@
                             </span>
                         @enderror
                     </div>
-                    <div class="offset-1 col-8">
+                    <div class="offset-2 col-8">
                         <input id="phone" type="tel" class="form-control @error('phone') is-invalid @enderror" name="phone" required autocomplete="tel" value="{{ old('phone') }}">
                         <label for="phone">Numéro de téléphone</label>
                         @error('phone')
@@ -38,7 +38,7 @@
                             </span>
                         @enderror
                     </div>
-                    <div class="offset-1 col-8">
+                    <div class="offset-2 col-8">
                         <select class="form-control" name="prestation" id="prestation">
                             <option>&#160;</option>
                             <option value="1">ONEPAGE</option>
@@ -52,11 +52,11 @@
                             </span>
                         @enderror
                     </div>
-                </div>
-                <div class="col-12" style="padding: 0">
-                    <button type="submit" class="btn">
-                        Envoyer la demande
-                    </button>
+                    <div class="col-8 offset-2" style="padding: 0">
+                        <button type="submit" class="btn">
+                            Envoyer la demande
+                        </button>
+                    </div>
                 </div>
             </form>
         </div>

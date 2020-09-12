@@ -2,6 +2,11 @@
 {
     background-color: #F3F3F3;
 }
+#devis > div
+{
+    width: 100vw;
+    margin: 0;
+}
 #devis .content
 {
     height: 100vh;
@@ -35,16 +40,16 @@
     }
     #devis .content:nth-child(1)
     {
-        margin-top: 10vh;
+        margin-top: 5vh;
     }
     #devis .content .txt h2
     {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-variation-settings: "wght" 500;
     }
     #devis .content .txt p
     {
-        font-size: 1rem;
+        font-size: .8rem;
         font-variation-settings: "wght" 200;
     }
     #devis .content .txt img
@@ -52,6 +57,14 @@
         margin-left: 35%;
         width: 15%;
     }
+    #devis .content form
+    {
+        margin-top: 2vh;
+    }
+}
+#devis .content form
+{
+    width: 100%;
 }
 #devis .content form input
 {
@@ -76,6 +89,9 @@
 }
 #devis .content form .form-group > div:nth-child(4) {
     animation: translate-right 2s 1.5s ,opacity 1.5s;
+}
+#devis .content form .form-group > div:nth-child(5) {
+    animation: translate-right 2s 2s ,opacity 2s;
 }
 #devis .content form select
 {
