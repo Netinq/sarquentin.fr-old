@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="content col-12 col-md-5 col-xl-4 offset-1 row">
-            <form method="POST" action="">
+            <form method="POST" action="{{route('sendmail')}}">
                 @csrf
                 <div class="form-group row">
                     <div class="offset-1 col-8">
