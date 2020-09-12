@@ -8,9 +8,9 @@
                 <div class="list" id="scroll-reviews">
                     @foreach ( $reviews as $review )
                     <div class="elem" itemscope itemtype="https://schema.org/Review">
+                        <meta itemprop="itemReviewed" content = "service">
                         <div class="note" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
                             <meta itemprop="ratingValue" content = "{{$review[4]}}">
-                            <meta itemprop="itemReviewed" content = "service">
                             @for ($i = 0; $i < (5 - $review[4]); $i++)
                             <img src="{{asset('images/svg/star.svg')}}" alt="Star icon">
                             @endfor
