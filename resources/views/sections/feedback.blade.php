@@ -17,14 +17,14 @@
                             @for ($i = 0; $i < $review[4]; $i++)
                             <img src="{{asset('images/svg/star-filled.svg')}}" alt="Filled star icon">
                             @endfor
-                        </>
+                        </div>
                         <div class="review">
                             <p itemprop="reviewBody">{{$review[3]}}</p>
                             <span>({{ ($loop->index+1) }} / {{count($reviews)}} avis ) {{$review[0][1]}}</span>
                         </div>
                         <div itemprop="itemReviewed" itemscope itemtype="https://schema.org/LocalBusiness">
                             <meta itemprop="name" content = "MONSIEUR SAR QUENTIN">
-                            <meta itemprop="image" content = "{{asset('images/meta.png')}}">
+                            <meta itemprop="image" content = "{{asset('images/logo.png')}}">
                         </div>
                     </div>
                     @endforeach
