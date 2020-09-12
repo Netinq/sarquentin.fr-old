@@ -3,19 +3,19 @@
         <img itemprop="logo" src="{{asset('images/logo.png')}}" alt="Logo">
     </div>
     <div class="menu col-6" id="menu">
-        <a href="#home"><div class="menu-elem">
+        <a href="{{route('home')}}#home"><div class="menu-elem">
             Accueil
         </div></a>
-        <a href="#services"><div class="menu-elem">
+        <a href="{{route('home')}}#services"><div class="menu-elem">
             Services
         </div></a>
-        <a href="#tarifs"><div class="menu-elem">
+        <a href="{{route('home')}}#tarifs"><div class="menu-elem">
             Tarifs
         </div></a>
-        <a href="#devis"><div class="menu-elem">
+        <a href="{{route('home')}}#devis"><div class="menu-elem">
             Devis
         </div></a>
-        <a href="#more"><div class="menu-elem">
+        <a href="{{route('home')}}#more"><div class="menu-elem">
             Plus
         </div></a>
     </div>
@@ -25,7 +25,7 @@
         <img itemprop="logo" src="{{asset('images/logo.png')}}" alt="Logo">
     </div>
     <div class="menu col-6">
-        <svg id="open" onclick="display_header();" xmlns="http://www.w3.org/2000/svg" width="38" height="21" viewBox="0 0 38 21"  alt="Burger Menu">
+        <svg id="open" onclick="display_header();" xmlns="http://www.w3.org/2000/svg" width="38" height="21" viewBox="0 0 38 21">
             <g id="burger" transform="translate(-285 -22)">
               <line id="Ligne_8" data-name="Ligne 8" x2="35" transform="translate(286.5 23.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
               <line id="Ligne_9" data-name="Ligne 9" x2="19" transform="translate(302.5 32.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
@@ -41,27 +41,27 @@
         <span>Fermer</span>
     </div>
     <div class="list">
-        <a href="#home" onclick="hide_header();">
+        <a href="{{route('home')}}#home" onclick="hide_header();">
             <div class="elem">
                 Accueil
             </div>
         </a>
-        <a href="#services" onclick="hide_header();">
+        <a href="{{route('home')}}#services" onclick="hide_header();">
             <div class="elem">
                 Services
             </div>
         </a>
-        <a href="#tarifs" onclick="hide_header();">
+        <a href="{{route('home')}}#tarifs" onclick="hide_header();">
             <div class="elem">
                 Tarifs
             </div>
         </a>
-        <a href="#devis" onclick="hide_header();">
+        <a href="{{route('home')}}#devis" onclick="hide_header();">
             <div class="elem">
                 Devis
             </div>
         </a>
-        <a href="#more" onclick="hide_header();">
+        <a href="{{route('home')}}#more" onclick="hide_header();">
             <div class="elem">
                 Plus
             </div>

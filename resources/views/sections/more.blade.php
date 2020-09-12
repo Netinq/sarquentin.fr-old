@@ -14,7 +14,7 @@
             <div class="elem">
                 <h3>Entreprise</h3>
                 <p class="point" itemprop="name">MONSIEUR SAR QUENTIN</p>
-                <p class="point">SIRET 885 388 132</p>
+                <p class="point">SIREN 885 388 132</p>
             </div>
             <div class="elem">
                 <h3>Informations</h3>

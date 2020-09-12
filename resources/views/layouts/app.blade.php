@@ -20,7 +20,7 @@
         <meta name='theme-color' content='#FAEC71'>
 
         <link rel='shortcut icon' type='image/png' href='{{ asset('images/logo.png') }}'>
-        <link rel='logo' type='image/png' href='{{ asset('images/logo.png') }}'>
+        {{-- <link rel='logo' type='image/png' href='{{ asset('images/logo.png') }}'> --}}
         <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}" />
 
         <!-- Twitter Card meta -->
@@ -53,7 +53,7 @@
             @else Lancez votre activité sur le web, dès maintenant @endif
         </title>
 
-        <meta http-equiv="content-language" content="fr">
+        {{-- <meta http-equiv="content-language" content="fr"> --}}
 
         <!-- STATIC Stylesheet -->
         <link rel="stylesheet" type="text/css" href="{{ asset('css/layouts/header.css') }}">

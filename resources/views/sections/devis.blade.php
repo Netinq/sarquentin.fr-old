@@ -40,7 +40,7 @@
                     </div>
                     <div class="offset-1 col-8">
                         <select class="form-control" name="prestation" id="prestation">
-                            <option> </option>
+                            <option>&#160;</option>
                             <option value="1">ONEPAGE</option>
                             <option value="2">VITRINE</option>
                             <option value="3">DYNAMIQUE</option>
@@ -51,6 +51,8 @@
                                 <strong>{{ $message }}</strong>
                             </span>
                         @enderror
+                    </div>
+                </div>
                 <div class="col-12" style="padding: 0">
                     <button type="submit" class="btn">
                         Envoyer la demande

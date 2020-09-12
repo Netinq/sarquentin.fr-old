@@ -16,15 +16,15 @@
                 </div>
                 <div class="list">
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p>Sur une seule page</p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p>Contenu statique</p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-purple.svg')}}">
+                        <img src="{{asset('images/svg/check-purple.svg')}}" alt="Check icon">
                         <p>Maintenance<span class="option">(option)</span></p>
                     </div>
                 </div>
@@ -45,15 +45,15 @@
                 </div>
                 <div class="list">
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p><b>Plusieurs pages</b></p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p>Contenu statique</p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-purple.svg')}}">
+                        <img src="{{asset('images/svg/check-purple.svg')}}" alt="Check icon">
                         <p>Maintenance<span class="option">(option)</span></p>
                     </div>
                 </div>
@@ -74,15 +74,15 @@
                 </div>
                 <div class="list">
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p><b>Plusieurs pages</b></p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-yellow.svg')}}">
+                        <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
                         <p><b>Contenu modifiable évolutif</b></p>
                     </div>
                     <div class="elem">
-                        <img src="{{asset('images/svg/check-purple.svg')}}">
+                        <img src="{{asset('images/svg/check-purple.svg')}}" alt="Check icon">
                         <p>Maintenance<span class="option">(option)</span></p>
                     </div>
                 </div>
