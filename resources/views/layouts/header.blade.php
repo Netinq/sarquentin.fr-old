@@ -35,9 +35,8 @@
     </div>
 </header>
 <div class="menu-m">
-    <img class="landing" src="{{asset('images/landing/home.png')}}" alt="Landing background">
     <div class="top" id="close"  onclick="hide_header();">
-        <img src="{{asset('images/svg/burger.svg')}}" alt="Burger menu">
+        <img src="{{asset('images/svg/burger-dark.svg')}}" alt="Burger menu">
         <span>Fermer</span>
     </div>
     <div class="list">
