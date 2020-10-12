@@ -6,7 +6,7 @@
             <div class="feedback">
                 <h2>Les retours clients</h2>
                 <div class="list" id="scroll-reviews">
-                    @if (is_array($values) || is_object($values)) @foreach ( $reviews as $review )
+                    @if (is_array($reviews) || is_object($reviews)) @foreach ( $reviews as $review )
                     <div class="elem" itemscope itemtype="https://schema.org/Review">
                         <meta itemprop="author" content = "{{$review[0][1]}}">
                         <div class="note" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
