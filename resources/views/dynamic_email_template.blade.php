@@ -8,7 +8,7 @@ Email du client : {{ $data['email'] }}<br>
 Numéro du client : {{ $data['phone'] }}<br>
 Prestation désiré : {{ $data['prestation'] }}
 <br><br>
-Rappel prestation, (1 ONEPAGE) (2 VITRINE) (3 DYNAMIQUE)</p>
+Rappel prestation, (1 ONEPAGE) (2 VITRINE) (3 DYNAMIQUE) (4 DESIGN) (5 FRONT) (6 BACK)</p>
 
 <style>
     p {
