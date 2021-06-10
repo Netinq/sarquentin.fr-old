@@ -118,7 +118,7 @@
                     </div>
                     <div class="elem">
                         <img src="{{asset('images/svg/check-yellow.svg')}}" alt="Check icon">
-                        <p>Création de ressources vectorielles</p>
+                        <p>Ressources vectorielles</p>
                     </div>
                 </div>
                 <a href="#devis">
