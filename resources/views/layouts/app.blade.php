@@ -7,9 +7,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
-        <meta name='author' content='Quentin Sar, Netinq'>
-        <meta name='owner' content='Quentin Sar'>
-        <meta name='subject' content="Quentin Sar">
+        <meta name='author' content='MONSIEUR QUENTIN SAR, Netinq'>
+        <meta name='owner' content='MONSIEUR QUENTIN SAR'>
+        <meta name='subject' content="MONSIEUR QUENTIN SAR">
 
         <meta name='identifier-URL' content='sarquentin.fr'>
         <meta name="description" content="@yield('description')">
@@ -17,7 +17,7 @@
 
         <meta name='language' content='FR'>
         <meta name='target' content='all'>
-        <meta name='theme-color' content='#FAEC71'>
+        <meta name='theme-color' content='#E7BD53'>
 
         <link rel='shortcut icon' type='image/png' href='{{ asset('images/logo.png') }}'>
         {{-- <link rel='logo' type='image/png' href='{{ asset('images/logo.png') }}'> --}}
@@ -39,7 +39,7 @@
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://sarquentin.fr' />
         <meta property='og:site_name' content='{{Config::get('app.name')}}' />
-        <meta property='author' content='Quentin Sar' />
+        <meta property='author' content='MONSIEUR QUENTIN SAR' />
         <meta property='profile:gender' content='male' />
         <meta property="og:locale" content="fr_FR" />
 
