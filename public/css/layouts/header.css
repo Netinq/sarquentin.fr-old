@@ -90,7 +90,7 @@ header .menu #open
     display: none;
     user-select: none;
     transition: .3 all;
-    animation: menu-m 1s;
+    animation: menu-m .5s;
 }
 
 @keyframes menu-m
@@ -109,7 +109,7 @@ header .menu #open
     top: 0;
     right: -7vw;
     height: 40vh;
-    animation: menu-landing 1s, opacity;
+    animation: menu-landing .5s, opacity;
 }
 
 @keyframes menu-landing
@@ -132,6 +132,7 @@ header .menu #open
     position: absolute;
     right: var(--margin-side);
     user-select: none;
+    z-index: 10000;
 }
 
 .menu-m .top img
@@ -165,6 +166,7 @@ header .menu #open
     .menu-m .top
     {
         right: var(--margin-side);
+        z-index: 10000;
     }
     .menu-m #close img
     {
@@ -187,7 +189,7 @@ header .menu #open
     font-size: 4vh;
     font-variation-settings: "wght" 300;
     position: relative;
-    animation: menu-elem 1s 1s, opacity 1s;
+    animation: menu-elem .5s .5s, opacity .5s;
 }
 
 .menu-m .list .elem::after {
