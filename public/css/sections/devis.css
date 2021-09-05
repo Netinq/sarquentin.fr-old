@@ -128,7 +128,7 @@
 }
 #devis .content form button
 {
-    background-color: var(--yellow);
+    background-color: var(--main);
     color: #ffffff;
     width: 100%;
     height: 50px;

@@ -1,7 +1,7 @@
 :root
 {
     --margin-side: 50px;
-    --yellow: #FAEC71;
+    --main: #E7BD53;
 }
 
 @media (max-width: 768px)

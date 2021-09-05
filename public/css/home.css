@@ -73,7 +73,7 @@
 
 .home-txt .home-txt-ct h1
 {
-    color: #FAEC71;
+    color: var(--yellow);
     font-family: 'Main';
     font-variation-settings: "wght" 700;
     font-size: 3rem;
@@ -105,7 +105,7 @@
 {
     margin-top: 50px;
     color: #ffffff;
-    background-color: #FAEC71;
+    background-color: var(--yellow);
     height: 50px;
     width: 200px;
     line-height: 50px;
@@ -153,7 +153,7 @@
     {
         margin-top: 50px;
         color: #ffffff;
-        background-color: #FAEC71;
+        background-color: var(--yellow);
         height: 50px;
         width: 50vw;
         min-width: 200px;

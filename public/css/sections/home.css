@@ -73,12 +73,12 @@
 
 #home .home-txt .home-txt-ct h1
 {
-    color: #FAEC71;
+    color: var(--main);
     font-family: 'Main';
     font-variation-settings: "wght" 700;
     font-size: 3rem;
     margin: 0;
-    animation: translate-left 2s;
+    animation: translate-left 1s;
 }
 
 #home .home-txt .home-txt-ct h2
@@ -87,7 +87,7 @@
     font-family: 'Main';
     font-variation-settings: "wght" 700;
     font-size: 2.5rem;
-    animation: translate-left 2s .5s, opacity .5s;
+    animation: translate-left 1s .5s, opacity .5s;
 }
 
 #home .home-txt .home-txt-ct p
@@ -97,7 +97,7 @@
     font-family: 'Main';
     font-variation-settings: "wght" 300;
     font-size: 1.1rem;
-    animation: translate-left 2s 1s, opacity 1s;
+    animation: translate-left 1s 1s, opacity 1s;
 }
 
 
@@ -105,7 +105,7 @@
 {
     margin-top: 50px;
     color: #ffffff;
-    background-color: #FAEC71;
+    background-color: var(--main);
     height: 50px;
     width: 200px;
     line-height: 50px;
@@ -115,7 +115,7 @@
     font-variation-settings: "wght" 400;
     font-size: 1.2rem;
     box-sizing: border-box;
-    animation: translate-left 2s 1.5s, opacity 1.5s;
+    animation: translate-left 1s 1.5s, opacity 1.5s;
 }
 
 @media (max-width: 768px)
@@ -131,7 +131,7 @@
         right: -7vw;
         max-height: 50vh;
         max-width: 50vw;
-        animation: home-ld-bg 2s;
+        animation: home-ld-bg 1s;
     }
 
     #home .home-landing #home-ld-il
@@ -150,7 +150,7 @@
     {
         margin-top: 50px;
         color: #ffffff;
-        background-color: #FAEC71;
+        background-color: var(--main);
         height: 50px;
         width: 50vw;
         min-width: 200px;
@@ -161,7 +161,7 @@
         font-variation-settings: "wght" 300;
         font-size: 1.1rem;
         box-sizing: border-box;
-        animation: translate-left 2s 1.5s, opacity 1.5s;
+        animation: translate-left 1s 1.5s, opacity 1.5s;
     }
 
     #home .home-txt .home-txt-ct h1
