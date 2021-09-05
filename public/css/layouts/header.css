@@ -266,7 +266,7 @@ header .menu #open
 
 .header-scroll .menu .menu-selected
 {
-    color: var(--yellow);
+    color: var(--main);
     font-variation-settings: "wght" 400;
     position: relative;
     transition: .3 all;
@@ -279,5 +279,5 @@ header .menu #open
     left: 0;
     height: 1px;
     width: 100%;
-    background-color: var(--yellow);
+    background-color: var(--main);
 }
