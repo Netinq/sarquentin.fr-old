@@ -7,53 +7,63 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 
-        <meta name='author' content='MONSIEUR QUENTIN SAR, Netinq'>
-        <meta name='owner' content='MONSIEUR QUENTIN SAR'>
-        <meta name='subject' content="MONSIEUR QUENTIN SAR">
+        <meta name="author" content="MONSIEUR QUENTIN SAR, Netinq">
+        <meta name="owner" content="MONSIEUR QUENTIN SAR">
+        <meta name="subject" content="MONSIEUR QUENTIN SAR">
 
-        <meta name='identifier-URL' content='sarquentin.fr'>
+        <meta name="identifier-URL" content="sarquentin.fr'>
         <meta name="description" content="@yield('description')">
-        <meta name='reply-to' content='contact@sarquentin.fr'>
+        <meta name="reply-to" content="contact@sarquentin.fr'>
 
-        <meta name='language' content='FR'>
-        <meta name='target' content='all'>
-        <meta name='theme-color' content='#E7BD53'>
+        <meta name="language" content="FR'>
+        <meta name="target" content="all'>
+        <meta name="theme-color" content="#E7BD53'>
 
-        <link rel='shortcut icon' type='image/png' href='{{ asset('images/logo.png') }}'>
-        {{-- <link rel='logo' type='image/png' href='{{ asset('images/logo.png') }}'> --}}
+        <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}'>
         <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}" />
 
         <!-- Twitter Card meta -->
-        <meta name='twitter:card' content='summary'>
+        <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@Netinq" />
         <meta name="twitter:title" content="@hasSection('title') {{Config::get('app.name')}} - @yield('title') @else Lancez votre activité sur le web, dès maintenant @endif" />
-        <meta name='twitter:url' content='https://sarquentin.fr' />
-        <meta name='twitter:domain' content='sarquentin.fr' />
+        <meta name="twitter:url" content="https://sarquentin.fr" />
+        <meta name="twitter:domain" content="sarquentin.fr" />
         <meta name="twitter:description" content="@yield('description')" />
         <meta name="twitter:image" content="{{asset('images/meta.png')}}" />
 
         <!-- Open Graph meta -->
-        <meta property='og:title' content='@hasSection('title') {{Config::get('app.name')}} - @yield('title') @else Lancez votre activité sur le web, dès maintenant @endif' />
+        <meta property="og:title" content="@hasSection('title') {{Config::get('app.name')}} - @yield('title') @else Lancez votre activité sur le web, dès maintenant @endif" />
         <meta property="og:description" content="@yield('description')" />
         <meta property="og:image" content="{{asset('images/meta.png')}}" />
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://sarquentin.fr' />
-        <meta property='og:site_name' content='{{Config::get('app.name')}}' />
-        <meta property='author' content='MONSIEUR QUENTIN SAR' />
-        <meta property='profile:gender' content='male' />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://sarquentin.fr" />
+        <meta property="og:site_name" content="{{Config::get('app.name')}}" />
+        <meta property="author" content="MONSIEUR QUENTIN SAR" />
+        <meta property="profile:gender" content="male" />
         <meta property="og:locale" content="fr_FR" />
 
         <!-- IOS meta -->
         <meta name="apple-mobile-web-app-title" content="{{Config::get('app.name')}}">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name": "MONSIEUR QUENTIN SAR",
+                "legalName": "MONSIEUR QUENTIN SAR",
+                "description": "Créez votre vitrine en ligne, développez un e-commerce, proposez un service de réservation en ligne à vos clients...",
+                "image": "https://sarquentin.fr/images/meta.png",
+                "logo": "https://sarquentin.fr/images/logo.png",
+                "url": "https://sarquentin.fr",
+                "email": "pro@sarquentin.fr"
+            }
+        </script>
 
         <title>
             @hasSection('title') {{Config::get('app.name')}} : @yield('title')
             @else Lancez votre activité sur le web, dès maintenant @endif
         </title>
-
-        {{-- <meta http-equiv="content-language" content="fr"> --}}
 
         <!-- STATIC Stylesheet -->
         <link rel="stylesheet" type="text/css" href="{{ asset('css/layouts/header.css') }}">
