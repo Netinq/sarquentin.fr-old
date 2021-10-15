@@ -11,15 +11,15 @@
         <meta name="owner" content="MONSIEUR QUENTIN SAR">
         <meta name="subject" content="MONSIEUR QUENTIN SAR">
 
-        <meta name="identifier-URL" content="sarquentin.fr'>
+        <meta name="identifier-URL" content="sarquentin.fr">
         <meta name="description" content="@yield('description')">
-        <meta name="reply-to" content="contact@sarquentin.fr'>
+        <meta name="reply-to" content="contact@sarquentin.fr">
 
-        <meta name="language" content="FR'>
-        <meta name="target" content="all'>
-        <meta name="theme-color" content="#E7BD53'>
+        <meta name="language" content="FR">
+        <meta name="target" content="all">
+        <meta name="theme-color" content="#E7BD53">
 
-        <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}'>
+        <link rel="shortcut icon" type="image/png" href="{{ asset('images/logo.png') }}">
         <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}" />
 
         <!-- Twitter Card meta -->
