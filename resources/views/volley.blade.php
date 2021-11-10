@@ -4,7 +4,7 @@
             <div class="title">
                 <span>{{ $match['date'] }}</span>
                 <h2>{{ $match['local'] }} - {{ $match['visitor'] }}</h2>
-                <p>Rendez-vous {{ $match['meet']!="" ? $match['start'] : "à définir" }}</p>
+                <p>Rendez-vous {{ $match['meet']!="" ? $match['meet'] : "à définir" }}</p>
                 <p>Début du match {{ $match['start']!="" ? $match['start'] : "à définir" }}</p>
             </div>
             <div class="team">
