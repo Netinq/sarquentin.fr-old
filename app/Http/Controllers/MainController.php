@@ -33,4 +33,12 @@ class MainController extends Controller
     {
         return view('legal');
     }
+
+    public function volley()
+    {
+        $jsonString = file_get_contents(base_path('public/js/matchs.json'));
+        $data = json_decode($jsonString, true);
+        $data = $data['matchs'];
+        return view('volley', compact('data'));
+    }
 }
