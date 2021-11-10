@@ -65,7 +65,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 250px;
     }
     div.content {
         width: 75%;
@@ -76,6 +75,7 @@
         background-color: #F8F8F8;
         position: relative;
         margin-bottom: 25px;
+        flex-wrap: wrap;
     }
     div.already {
         opacity: .5;
@@ -160,5 +160,38 @@
     }
     .confirmed {
         background-color: #59AA7C !important;
+    }
+    @media screen and (max-width: 991px) {
+        div.content {
+            width: 90vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #F8F8F8;
+            position: relative;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+        div.status {
+            height: 100px;
+            width: 90vw;
+            padding: 0;
+        }
+        div.status p {
+            font-size: 1.8rem;
+        }
+        div.status span {
+            font-size: 1.2rem;
+        }
+        div.title span {
+            font-size: 2rem;
+        }
+        div.title h2 {
+            font-size: 2.2rem
+        }
+        div.title p {
+            font-size: 1.6rem;
+        }
     }
 </style>
