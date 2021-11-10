@@ -65,6 +65,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 50px;
     }
     div.content {
         width: 75%;
