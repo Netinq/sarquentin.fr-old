@@ -18,19 +18,19 @@
 {
     font-size: 2.5rem;
     font-variation-settings: "wght" 500;
-    animation: translate-left 2s;
+    animation: translate-left .5s;
 }
 #devis .content .txt p
 {
     font-size: 1.1rem;
     font-variation-settings: "wght" 200;
-    animation: translate-left 2s .5s, opacity .5s;
+    animation: translate-left .5s .2s, opacity .2s;
 }
 #devis .content .txt img
 {
     margin-left: 25%;
     width: 25%;
-    animation: translate-left-bottom 2s 1s, opacity 1s;
+    animation: translate-left-bottom .5s .4s, opacity .4s;
 }
 @media (max-width: 782px)
 {
@@ -79,19 +79,19 @@
     padding-top: 10px;
 }
 #devis .content form .form-group > div:nth-child(1) {
-    animation: translate-right 2s;
+    animation: translate-right .5s;
 }
 #devis .content form .form-group > div:nth-child(2) {
-    animation: translate-right 2s .5s ,opacity .5s;
+    animation: translate-right .5s .1s ,opacity .1s;
 }
 #devis .content form .form-group > div:nth-child(3) {
-    animation: translate-right 2s 1s ,opacity 1s;
+    animation: translate-right .5s .2s ,opacity .2s;
 }
 #devis .content form .form-group > div:nth-child(4) {
-    animation: translate-right 2s 1.5s ,opacity 1.5s;
+    animation: translate-right .5s .3s ,opacity .3s;
 }
 #devis .content form .form-group > div:nth-child(5) {
-    animation: translate-right 2s 2s ,opacity 2s;
+    animation: translate-right .5s .4s ,opacity .4s;
 }
 #devis .content form select
 {

@@ -11,7 +11,7 @@
     right: 0;
     height: 100vh;
     max-width: 100%;
-    animation: home-ld-bg 2s;
+    animation: home-ld-bg .5s;
 }
 
 @keyframes home-ld-bg

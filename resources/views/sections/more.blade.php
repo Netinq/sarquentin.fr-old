@@ -15,12 +15,11 @@
                 <h3>Entreprise</h3>
                 <p class="point" itemprop="name">MONSIEUR SAR QUENTIN</p>
                 <p class="point">SIREN 885 388 132</p>
-                <a href="https://hoodspot.fr/programmeur-informatique/quentin-sar-88538813200015/" title="Quentin Sar" target="_blank">hoodspot</a>
-
             </div>
             <div class="elem">
                 <h3>Informations</h3>
                 <a class="link" href="{{route('legal')}}">Mentions légales</a>
+                <a class="link" href="https://blog.sarquentin.fr" target="_blank">Blog</a>
             </div>
         </div>
         <div class="bottom">

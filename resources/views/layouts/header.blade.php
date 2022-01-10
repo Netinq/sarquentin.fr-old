@@ -15,8 +15,8 @@
         <a href="{{route('home')}}#devis"><div class="menu-elem">
             Devis
         </div></a>
-        <a href="{{route('home')}}#more"><div class="menu-elem">
-            Plus
+        <a href="https://blog.sarquentin.fr" target="_blank"><div class="menu-elem">
+            Blog
         </div></a>
     </div>
 </header>
