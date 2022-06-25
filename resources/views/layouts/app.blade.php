@@ -106,7 +106,7 @@
         <meta itemprop="name" content = "MONSIEUR SAR QUENTIN">
         <meta itemprop="url" content = "https://sarquentin.fr">
         <meta itemprop="telephone" content = "0750976893">
-        @include('layouts.header')
+            @include('layouts.header')
         @yield('content')
     </body>
 

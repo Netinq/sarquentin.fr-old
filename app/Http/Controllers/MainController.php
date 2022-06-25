@@ -41,4 +41,8 @@ class MainController extends Controller
         $data = $data['matchs'];
         return view('volley', compact('data'));
     }
+
+    public function govolley() {
+        return view('govolley');
+    }
 }

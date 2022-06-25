@@ -9,5 +9,6 @@ use Illuminate\Support\Facades\URL;
 
 Route::get('/', [MainController::class, 'home'])->name('home');
 Route::get('/volley', [MainController::class, 'volley'])->name('volley');
+Route::get('/govolley', [MainController::class, 'govolley'])->name('govolley');
 Route::get('/mentions-legales', [MainController::class, 'legal'])->name('legal');
 Route::post('/sendemail/send', [DevisController::class, 'send'])->name('sendmail');
