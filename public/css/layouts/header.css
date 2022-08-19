@@ -177,6 +177,14 @@ header .menu #open
         color: #353535;
         font-size: 1.2rem;
     }
+
+    header .menu #open
+    {
+        height: 30px;
+        margin-top: 35px;
+        margin-right: 0;
+        cursor: pointer;
+    }
 }
 
 .menu-m .list .elem

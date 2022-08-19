@@ -1,15 +1,7 @@
 :root
 {
-    --margin-side: 50px;
+    --margin-side: 10vw;
     --main: #E7BD53;
-}
-
-@media (max-width: 768px)
-{
-    :root
-    {
-        --margin-side: 25px;
-    }
 }
 
 @font-face {

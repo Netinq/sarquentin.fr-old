@@ -11,7 +11,7 @@
     right: 0;
     height: 100vh;
     max-width: 100%;
-    animation: home-ld-bg .5s;
+    /*animation: home-ld-bg .5s;*/
 }
 
 @keyframes home-ld-bg
@@ -57,14 +57,7 @@
     }
 }
 
-.home-txt
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.home-txt .home-txt-ct
+.home-txt-ct
 {
     margin-top: 50px;
     margin-left: calc(var(--margin-side) - 15px);

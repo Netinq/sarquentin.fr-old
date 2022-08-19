@@ -1,17 +1,29 @@
-#home .home-landing
-{
+#home {
+    width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 var(--margin-side);
 }
 
-#home .home-landing #home-ld-bg
+#home #home-ld-bg
 {
     position: absolute;
     top: 0;
     right: 0;
     height: 100vh;
     max-width: 100%;
-    animation: home-ld-bg 1s;
+}
+
+#home #home-ld-il
+{
+    position: absolute;
+    top: 35vh;
+    right: 20vw;
+    height: 50vh;
+    animation: home-ld-il 1s 1s, opacity 1s, bounce 3s ease-in-out infinite 3s;
 }
 
 @keyframes home-ld-bg
@@ -23,14 +35,16 @@
         transform: translate(0);
     }
 }
-
-#home .home-landing #home-ld-il
+@keyframes home-ld-il
 {
-    position: absolute;
-    top: 35vh;
-    right: 20vw;
-    height: 50vh;
-    animation: home-ld-il 1s 1s, opacity 1s, bounce 3s ease-in-out infinite 3s;
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 992px)
@@ -45,67 +59,42 @@
     }
 }
 
-@keyframes home-ld-il
-{
-    from {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-#home .home-txt
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#home .home-txt .home-txt-ct
-{
-    margin-top: 50px;
-    margin-left: calc(var(--margin-side) - 15px);
-    margin-right: calc(var(--margin-side) - 15px);
-}
-
-#home .home-txt .home-txt-ct h1
+#home h1
 {
     color: var(--main);
     font-family: 'Main';
     font-variation-settings: "wght" 700;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
+    margin-top: 100px;
     animation: translate-left .5s;
+    line-height: 2.8rem;
+    white-space: pre-line;
 }
-
-#home .home-txt .home-txt-ct h2
+#home h1 span
 {
-    color: #464646;
-    font-family: 'Main';
-    font-variation-settings: "wght" 700;
+    color: #353535;
     font-size: 2.5rem;
+    margin-top: 0;
     animation: translate-left .5s .25s, opacity .25s;
 }
-
-#home .home-txt .home-txt-ct p
+#home p
 {
+    margin: 0;
     margin-top: 25px;
     color: #464646;
     font-family: 'Main';
     font-variation-settings: "wght" 300;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     animation: translate-left .5s .5s, opacity .5s;
+    width: 45%;
 }
-
-
-#home .home-txt .home-txt-ct .home-btn-di
+#home .home-btn-di
 {
-    margin-top: 50px;
+    margin-top: 25px;
     color: #ffffff;
     background-color: var(--main);
+    border: 2px solid var(--main);
     height: 50px;
     width: 200px;
     line-height: 50px;
@@ -116,60 +105,160 @@
     font-size: 1.2rem;
     box-sizing: border-box;
     animation: translate-left .5s .7s, opacity .7s;
+    transition: .1s ease-in-out;
+}
+#home .home-btn-di:hover
+{
+    background-color: transparent;
+    color: var(--main);
 }
 
-@media (max-width: 768px)
-{
-    #home .home-landing
+@media (max-width: 1600px) {
+    #home #home-ld-bg
     {
-        height: 50vh;
+        max-width: 50%;
     }
-    #home .home-landing #home-ld-bg
+}
+@media (max-width: 1400px) {
+    #home h1
+    {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    #home h1 span
+    {
+        font-size: 2rem;
+    }
+    #home p
+    {
+        font-size: 1rem;
+    }
+    #home #home-ld-bg
+    {
+        max-width: 65%;
+    }
+    #home #home-ld-il
+    {
+        right: 25vw;
+        height: 45vh;
+    }
+}
+@media (max-width: 1200px) {
+    #home h1
+    {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+    #home h1 span
+    {
+        font-size: 2rem;
+    }
+    #home p
+    {
+        font-size: 1rem;
+    }
+    #home #home-ld-bg
+    {
+        max-width: 50%;
+    }
+    #home #home-ld-il
+    {
+        right: 15vw;
+        height: 40vh;
+    }
+}
+@media (max-width: 991px) {
+    #home #home-ld-bg
     {
         position: absolute;
         top: 0;
         right: -7vw;
-        max-height: 50vh;
-        max-width: 50vw;
+        height: 50vh;
         animation: home-ld-bg 1s;
     }
-
-    #home .home-landing #home-ld-il
+    #home #home-ld-il
     {
-        position: absolute;
-        top: 12vh;
-        right: 50px;
-        height: 35vh;
-        width: auto;
+        display: none;
     }
-    #home .home-txt .home-txt-ct
+    #home h1
     {
-        margin-top: 0;
+        font-size: 3rem;
+        line-height: 2rem;
     }
-    #home .home-txt .home-txt-ct .home-btn-di
-    {
-        margin-top: 50px;
-        color: #ffffff;
-        background-color: var(--main);
-        height: 50px;
-        width: 50vw;
-        min-width: 200px;
-        line-height: 50px;
-        text-align: center;
-        border-radius: 35px;
-        font-family: 'Main';
-        font-variation-settings: "wght" 300;
-        font-size: 1.1rem;
-        box-sizing: border-box;
-    }
-
-    #home .home-txt .home-txt-ct h1
+    #home h1 span
     {
         font-size: 2rem;
     }
-
-    #home .home-txt .home-txt-ct h2
+    #home p
     {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        width: 65%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #home {
+        justify-content: flex-end;
+        padding-bottom: 15vh;
+    }
+    #home #home-ld-bg
+    {
+        position: absolute;
+        top: 0;
+        right: -7vw;
+        height: 25vh;
+        animation: home-ld-bg 1s;
+    }
+    #home #home-ld-il
+    {
+        position: absolute;
+        top: 15vh;
+        right: 25vw;
+        width: 50vw;
+        height: auto;
+        animation: home-ld-il 1s 1s, opacity 1s, bounce 3s ease-in-out infinite 3s;
+        display: block;
+    }
+    #home h1
+    {
+        font-size: 2.2rem;
+        line-height: 1.8rem;
+        margin-top: 0;
+    }
+    #home h1 span
+    {
+        font-size: 1.4rem;
+    }
+    #home p
+    {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 670px)
+{
+    #home {
+        padding-bottom: 10vh;
+    }
+    #home #home-ld-il
+    {
+        top: 10vh;
+    }
+    #home h1
+    {
+        font-size: 2rem;
+        line-height: 1.8rem;
+        margin-top: 0;
+    }
+    #home h1 span
+    {
+        font-size: 1.4rem;
+    }
+    #home p
+    {
+        font-size: 1rem;
+        width: 100%;
     }
 }
