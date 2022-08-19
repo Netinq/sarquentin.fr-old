@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0 var(--margin-side);
+    overflow-x: hidden;
 }
 
 #home #home-ld-bg
