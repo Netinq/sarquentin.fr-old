@@ -91,8 +91,6 @@
         gtag('config', 'UA-132838792-1');
         </script>
 
-        <script data-ad-client="ca-pub-4501219983180544" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
         @if($styles ?? null)
             @foreach($styles as $style)
             <link rel="stylesheet" type="text/css"
