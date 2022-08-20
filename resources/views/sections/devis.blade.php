@@ -2,9 +2,8 @@
     <div class="hide row">
         <div class="content col-8 col-md-5 col-xl-4 offset-2 offset-md-1 offset-xl-2 row">
             <div class="txt">
-                <h2>Complétez le formulaire pour demander un devis</h2>
+                <h2>Un projet à nous proposer ?</h2>
                 <p>Après l'envoi du formulaire, nous vous recontacterons dans les plus brefs délais afin d'échanger sur votre projet.</p>
-                <img src="{{asset('images/svg/send.svg')}}" alt="Send icon">
             </div>
         </div>
         <div class="content col-12 col-md-5 col-xl-4 row" style="margin: 0; margin-top: 50px">
