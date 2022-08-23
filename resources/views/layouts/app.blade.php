@@ -1,4 +1,4 @@
-@section('description', 'Créez votre vitrine en ligne, développez un e-commerce, proposez un service de réservation en ligne à vos clients...')
+@section('description', 'Créez dès maintenant votre site vitrine dès maintenant. Nous vous accompagnons dans la réalisation d\'un web design, dans le développement technique du site, ainsi que sa mise en ligne et son référencement.')
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -52,7 +52,7 @@
                 "@type": "Organization",
                 "name": "MONSIEUR QUENTIN SAR",
                 "legalName": "MONSIEUR QUENTIN SAR",
-                "description": "Créez votre vitrine en ligne, développez un e-commerce, proposez un service de réservation en ligne à vos clients...",
+                "description": "Créez dès maintenant votre site vitrine dès maintenant. Nous vous accompagnons dans la réalisation d\'un web design, dans le développement technique du site, ainsi que sa mise en ligne et son référencement.",
                 "image": "https://sarquentin.fr/images/meta.png",
                 "logo": "https://sarquentin.fr/images/logo.png",
                 "url": "https://sarquentin.fr",
@@ -61,7 +61,7 @@
         </script>
 
         <title>
-            @hasSection('title') {{Config::get('app.name')}} : @yield('title')
+            @hasSection('title') {{Config::get('app.name')}} - @yield('title')
             @else Lancez votre activité sur le web, dès maintenant @endif
         </title>
 
