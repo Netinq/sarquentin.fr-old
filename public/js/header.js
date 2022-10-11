@@ -45,3 +45,5 @@ function onScroll(event){
         }
     });
 }
+
+# I know JQuery is bad
