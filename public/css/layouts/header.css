@@ -6,7 +6,7 @@ header
     height: 100px;
     width: 100vw;
     margin: 0 !important;
-    padding: 0;
+    padding: 0px;
     z-index: 10000;
     transition: .3s all;
 }
